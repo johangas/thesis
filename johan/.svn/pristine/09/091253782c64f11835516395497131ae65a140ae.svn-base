@@ -1,0 +1,26 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Background}{1}{subsection.1.1}
+\contentsline {section}{\numberline {2}Technical background}{1}{section.2}
+\contentsline {subsection}{\numberline {2.1}Contiki}{1}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Proto threads}{1}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Contiki MAC}{2}{subsubsection.2.1.2}
+\contentsline {subsection}{\numberline {2.2}BLE}{2}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}GAP}{2}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}GATT}{2}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.3}IPSP}{2}{subsubsection.2.2.3}
+\contentsline {subsection}{\numberline {2.3}6LoWPAN}{2}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}nRF52832}{2}{subsection.2.4}
+\contentsline {section}{\numberline {3}Purpose}{3}{section.3}
+\contentsline {section}{\numberline {4}Method}{3}{section.4}
+\contentsline {subsection}{\numberline {4.1}Optimizations}{3}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Process}{3}{subsection.4.2}
+\contentsline {section}{\numberline {5}Application implementation}{3}{section.5}
+\contentsline {section}{\numberline {6}Results and Discussion}{3}{section.6}
+\contentsline {subsection}{\numberline {6.1}Optimizations}{3}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Measurements}{3}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Analysis}{3}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Discussion}{3}{subsection.6.4}
+\contentsline {section}{\numberline {7}Future work}{3}{section.7}
+\contentsline {section}{\numberline {8}Summary}{3}{section.8}
+\contentsline {section}{\numberline {9}Acknowledgements}{3}{section.9}
+\contentsline {section}{\numberline {A}Aasdasd}{5}{appendix.A}

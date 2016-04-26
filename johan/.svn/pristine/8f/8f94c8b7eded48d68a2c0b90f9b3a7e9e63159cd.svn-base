@@ -1,0 +1,26 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Background}{section.1}% 2
+\BOOKMARK [1][-]{section.2}{Technical background}{}% 3
+\BOOKMARK [2][-]{subsection.2.1}{Contiki}{section.2}% 4
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Proto threads}{subsection.2.1}% 5
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Contiki MAC}{subsection.2.1}% 6
+\BOOKMARK [2][-]{subsection.2.2}{BLE}{section.2}% 7
+\BOOKMARK [3][-]{subsubsection.2.2.1}{GAP}{subsection.2.2}% 8
+\BOOKMARK [3][-]{subsubsection.2.2.2}{GATT}{subsection.2.2}% 9
+\BOOKMARK [3][-]{subsubsection.2.2.3}{IPSP}{subsection.2.2}% 10
+\BOOKMARK [2][-]{subsection.2.3}{6LoWPAN}{section.2}% 11
+\BOOKMARK [2][-]{subsection.2.4}{nRF52832}{section.2}% 12
+\BOOKMARK [1][-]{section.3}{Purpose}{}% 13
+\BOOKMARK [1][-]{section.4}{Method}{}% 14
+\BOOKMARK [2][-]{subsection.4.1}{Optimizations}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.2}{Process}{section.4}% 16
+\BOOKMARK [1][-]{section.5}{Application implementation}{}% 17
+\BOOKMARK [1][-]{section.6}{Results and Discussion}{}% 18
+\BOOKMARK [2][-]{subsection.6.1}{Optimizations}{section.6}% 19
+\BOOKMARK [2][-]{subsection.6.2}{Measurements}{section.6}% 20
+\BOOKMARK [2][-]{subsection.6.3}{Analysis}{section.6}% 21
+\BOOKMARK [2][-]{subsection.6.4}{Discussion}{section.6}% 22
+\BOOKMARK [1][-]{section.7}{Future work}{}% 23
+\BOOKMARK [1][-]{section.8}{Summary}{}% 24
+\BOOKMARK [1][-]{section.9}{Acknowledgements}{}% 25
+\BOOKMARK [1][-]{appendix.A}{Aasdasd}{}% 26

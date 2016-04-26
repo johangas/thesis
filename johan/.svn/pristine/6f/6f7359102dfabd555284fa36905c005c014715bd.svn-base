@@ -1,0 +1,29 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Background}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Technical background}{section.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.2.1}{Contiki}{subsection.1.2}% 4
+\BOOKMARK [3][-]{subsubsection.1.2.2}{Proto threads}{subsection.1.2}% 5
+\BOOKMARK [3][-]{subsubsection.1.2.3}{BLE}{subsection.1.2}% 6
+\BOOKMARK [3][-]{subsubsection.1.2.4}{GATT}{subsection.1.2}% 7
+\BOOKMARK [3][-]{subsubsection.1.2.5}{GAP}{subsection.1.2}% 8
+\BOOKMARK [3][-]{subsubsection.1.2.6}{IPSP}{subsection.1.2}% 9
+\BOOKMARK [3][-]{subsubsection.1.2.7}{6LoWPAN}{subsection.1.2}% 10
+\BOOKMARK [3][-]{subsubsection.1.2.8}{nRF52832}{subsection.1.2}% 11
+\BOOKMARK [2][-]{subsection.1.3}{Nordic Semiconductor Smartphone Apps}{section.1}% 12
+\BOOKMARK [1][-]{section.2}{Purpose}{}% 13
+\BOOKMARK [2][-]{subsection.2.1}{The Contiki port}{section.2}% 14
+\BOOKMARK [1][-]{section.3}{Method}{}% 15
+\BOOKMARK [2][-]{subsection.3.1}{Process}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.2}{Optimizations}{section.3}% 17
+\BOOKMARK [1][-]{section.4}{Application implementation}{}% 18
+\BOOKMARK [2][-]{subsection.4.1}{CoAP}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.2}{DTLS}{section.4}% 20
+\BOOKMARK [1][-]{section.5}{Results and Discussion}{}% 21
+\BOOKMARK [2][-]{subsection.5.1}{Optimizations}{section.5}% 22
+\BOOKMARK [2][-]{subsection.5.2}{Measurements}{section.5}% 23
+\BOOKMARK [2][-]{subsection.5.3}{Analysis}{section.5}% 24
+\BOOKMARK [2][-]{subsection.5.4}{Discussion}{section.5}% 25
+\BOOKMARK [1][-]{section.6}{Future work}{}% 26
+\BOOKMARK [1][-]{section.7}{Summary}{}% 27
+\BOOKMARK [1][-]{section.8}{Acknowledgements}{}% 28
+\BOOKMARK [1][-]{appendix.A}{Aasdasd}{}% 29

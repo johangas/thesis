@@ -1,0 +1,33 @@
+#view uart
+sudo picocom -b 38400 -r -l /dev/ttyACM3
+sudo picocom -b 38400 -r -l /dev/ttyACM4
+
+
+#init BT
+mount -t debugfs none /sys/kernel/debug
+
+modprobe bluetooth_6lowpan
+
+#enable 6lowpan PSM
+echo 35 > /sys/kernel/debug/bluetooth/6lowpan_psm
+
+#connect to boards
+echo "connect 00:00:F7:D1:AB:65 1" > /sys/kernel/debug/bluetooth/6lowpan_control
+echo "connect 00:25:40:F0:8B:F0 1" > /sys/kernel/debug/bluetooth/6lowpan_control
+
+
+#init ipv6 forwarding
+echo 1 > /proc/sys/net/ipv6/conf/all/forwarding
+sysctl -w net.ipv6.conf.all.forwarding=1
+
+#restartd routing daemon
+service radvd restart
+
+#set ipv6 routing prefix
+ifconfig bt0 add 2001:db8::1/64
+
+#ping all hosts on interface bt0 with prefix ff02:
+ping6 -I bt0 ff02::1
+#ping 
+ping6 -I bt0 2001:db8::200:f7ff:fed1:ab65
+ping6 -I bt0 2001:db8::225:40ff:fef0:8bf0
