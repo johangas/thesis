@@ -1,0 +1,11 @@
+CONTIKI_PROJECT = testapp2
+
+NRF52_SDK_ROOT=/home/johan/Downloads/nRF5_SDK_11.0.0_89a8197
+
+CONTIKI_WITH_RPL=0
+NRF52_WITHOUT_SOFTDEVICE=0
+
+all: $(CONTIKI_PROJECT) 
+
+CONTIKI = ../..
+include $(CONTIKI)/Makefile.include

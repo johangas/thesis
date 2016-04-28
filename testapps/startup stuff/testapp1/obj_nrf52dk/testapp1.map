@@ -1,0 +1,1768 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-exit.o)
+                              /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o (exit)
+/usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-impure.o)
+                              /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+/usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-init.o)
+                              /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o (__libc_init_array)
+/usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-memset.o)
+                              /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o (memset)
+/usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libnosys.a(_exit.o)
+                              /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-exit.o) (_exit)
+contiki-nrf52dk.a(contiki-main.o)
+                              /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o (main)
+contiki-nrf52dk.a(dbg-printf.o)
+                              testapp1.co (printf)
+contiki-nrf52dk.a(strformat.o)
+                              contiki-nrf52dk.a(dbg-printf.o) (format_str_v)
+contiki-nrf52dk.a(clock.o)    contiki-nrf52dk.a(contiki-main.o) (clock_init)
+contiki-nrf52dk.a(rtimer-arch.o)
+                              contiki-nrf52dk.a(contiki-main.o) (rtimer_arch_now)
+contiki-nrf52dk.a(uart0.o)    contiki-nrf52dk.a(contiki-main.o) (uart0_set_input)
+contiki-nrf52dk.a(watchdog.o)
+                              contiki-nrf52dk.a(contiki-main.o) (watchdog_init)
+contiki-nrf52dk.a(autostart.o)
+                              contiki-nrf52dk.a(contiki-main.o) (autostart_start)
+contiki-nrf52dk.a(ctimer.o)   contiki-nrf52dk.a(contiki-main.o) (ctimer_init)
+contiki-nrf52dk.a(energest.o)
+                              contiki-nrf52dk.a(contiki-main.o) (energest_init)
+contiki-nrf52dk.a(etimer.o)   contiki-nrf52dk.a(clock.o) (etimer_request_poll)
+contiki-nrf52dk.a(process.o)  contiki-nrf52dk.a(contiki-main.o) (process_start)
+contiki-nrf52dk.a(rtimer.o)   contiki-nrf52dk.a(contiki-main.o) (rtimer_init)
+contiki-nrf52dk.a(timer.o)    contiki-nrf52dk.a(etimer.o) (timer_set)
+contiki-nrf52dk.a(leds.o)     contiki-nrf52dk.a(contiki-main.o) (leds_init)
+contiki-nrf52dk.a(serial-line.o)
+                              contiki-nrf52dk.a(contiki-main.o) (serial_line_input_byte)
+contiki-nrf52dk.a(list.o)     contiki-nrf52dk.a(ctimer.o) (list_init)
+contiki-nrf52dk.a(random.o)   contiki-nrf52dk.a(contiki-main.o) (random_init)
+contiki-nrf52dk.a(ringbuf.o)  contiki-nrf52dk.a(uart0.o) (ringbuf_init)
+contiki-nrf52dk.a(sensors.o)  contiki-nrf52dk.a(contiki-main.o) (sensors_process)
+contiki-nrf52dk.a(leds-arch.o)
+                              contiki-nrf52dk.a(leds.o) (leds_arch_init)
+contiki-nrf52dk.a(nrf52dk-sensors)
+                              contiki-nrf52dk.a(sensors.o) (sensors_flags)
+contiki-nrf52dk.a(button-sensor.o)
+                              contiki-nrf52dk.a(nrf52dk-sensors) (buttons)
+contiki-nrf52dk.a(temperature-sen)
+                              contiki-nrf52dk.a(nrf52dk-sensors) (temperature_sensor)
+contiki-nrf52dk.a(dbg.o)      contiki-nrf52dk.a(dbg-printf.o) (dbg_send_bytes)
+nrf52832.a(nrf_drv_gpiote.)   contiki-nrf52dk.a(contiki-main.o) (nrf_drv_gpiote_init)
+nrf52832.a(nrf_drv_rtc.o)     contiki-nrf52dk.a(clock.o) (nrf_drv_rtc_init)
+nrf52832.a(nrf_drv_clock.o)   contiki-nrf52dk.a(clock.o) (nrf_drv_clock_init)
+nrf52832.a(nrf_drv_timer.o)   contiki-nrf52dk.a(rtimer-arch.o) (nrf_drv_timer_init)
+nrf52832.a(nrf_drv_wdt.o)     contiki-nrf52dk.a(watchdog.o) (nrf_drv_wdt_init)
+nrf52832.a(nrf_drv_rng.o)     contiki-nrf52dk.a(random.o) (nrf_drv_rng_init)
+nrf52832.a(nrf_drv_uart.o)    contiki-nrf52dk.a(uart0.o) (nrf_drv_uart_init)
+nrf52832.a(app_error.o)       contiki-nrf52dk.a(clock.o) (app_error_handler)
+nrf52832.a(app_fifo.o)        nrf52832.a(nrf_drv_rng.o) (app_fifo_init)
+nrf52832.a(app_util_platfo)   nrf52832.a(nrf_drv_wdt.o) (critical_region_enter)
+nrf52832.a(gcc_startup_nrf)   (Reset_Handler)
+nrf52832.a(nrf_drv_common.)   nrf52832.a(nrf_drv_gpiote.) (nrf_drv_common_irq_enable)
+nrf52832.a(system_nrf52.o)    nrf52832.a(gcc_startup_nrf) (SystemInit)
+/usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/libgcc.a(_aeabi_uldivmod.o)
+                              contiki-nrf52dk.a(strformat.o) (__aeabi_uldivmod)
+/usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/libgcc.a(_udivmoddi4.o)
+                              /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
+/usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/libgcc.a(_dvmd_tls.o)
+                              /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+/usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-strlen.o)
+                              contiki-nrf52dk.a(sensors.o) (strlen)
+/usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-strncmp.o)
+                              contiki-nrf52dk.a(sensors.o) (strncmp)
+
+Allocating common symbols
+Common symbol       size              file
+
+energest_total_time
+                    0x30              contiki-nrf52dk.a(energest.o)
+energest_total_count
+                    0x4               contiki-nrf52dk.a(energest.o)
+energest_current_mode
+                    0xc               contiki-nrf52dk.a(energest.o)
+c                   0x4               testapp1.co
+energest_current_time
+                    0x30              contiki-nrf52dk.a(energest.o)
+sensors_flags       0x6               contiki-nrf52dk.a(nrf52dk-sensors)
+serial_line_event_message
+                    0x1               contiki-nrf52dk.a(serial-line.o)
+sensors_event       0x1               contiki-nrf52dk.a(sensors.o)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crti.o
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crti.o
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crti.o
+ .data          0x0000000000000000        0x4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crtbegin.o
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .ARM.extab     0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-exit.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-exit.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-exit.o)
+ .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x0000000000000000        0x4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-init.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-init.o)
+ .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libnosys.a(_exit.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libnosys.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libnosys.a(_exit.o)
+ .text          0x0000000000000000        0x0 testapp1.co
+ .data          0x0000000000000000        0x0 testapp1.co
+ .bss           0x0000000000000000        0x0 testapp1.co
+ .text          0x0000000000000000        0x0 contiki-nrf52dk.a(contiki-main.o)
+ .data          0x0000000000000000        0x0 contiki-nrf52dk.a(contiki-main.o)
+ .bss           0x0000000000000000        0x0 contiki-nrf52dk.a(contiki-main.o)
+ .text          0x0000000000000000        0x0 contiki-nrf52dk.a(dbg-printf.o)
+ .data          0x0000000000000000        0x0 contiki-nrf52dk.a(dbg-printf.o)
+ .bss           0x0000000000000000        0x0 contiki-nrf52dk.a(dbg-printf.o)
+ .text          0x0000000000000000        0x0 contiki-nrf52dk.a(strformat.o)
+ .data          0x0000000000000000        0x0 contiki-nrf52dk.a(strformat.o)
+ .bss           0x0000000000000000        0x0 contiki-nrf52dk.a(strformat.o)
+ .text.format_str
+                0x0000000000000000       0x1c contiki-nrf52dk.a(strformat.o)
+ .text          0x0000000000000000        0x0 contiki-nrf52dk.a(clock.o)
+ .data          0x0000000000000000        0x0 contiki-nrf52dk.a(clock.o)
+ .bss           0x0000000000000000        0x0 contiki-nrf52dk.a(clock.o)
+ .text.clock_seconds
+                0x0000000000000000        0xc contiki-nrf52dk.a(clock.o)
+ .text.clock_wait
+                0x0000000000000000       0x1c contiki-nrf52dk.a(clock.o)
+ .text.clock_delay_usec
+                0x0000000000000000       0x7c contiki-nrf52dk.a(clock.o)
+ .text.clock_delay
+                0x0000000000000000        0x8 contiki-nrf52dk.a(clock.o)
+ .text          0x0000000000000000        0x0 contiki-nrf52dk.a(rtimer-arch.o)
+ .data          0x0000000000000000        0x0 contiki-nrf52dk.a(rtimer-arch.o)
+ .bss           0x0000000000000000        0x0 contiki-nrf52dk.a(rtimer-arch.o)
+ .text          0x0000000000000000        0x0 contiki-nrf52dk.a(uart0.o)
+ .data          0x0000000000000000        0x0 contiki-nrf52dk.a(uart0.o)
+ .bss           0x0000000000000000        0x0 contiki-nrf52dk.a(uart0.o)
+ .text          0x0000000000000000        0x0 contiki-nrf52dk.a(watchdog.o)
+ .data          0x0000000000000000        0x0 contiki-nrf52dk.a(watchdog.o)
+ .bss           0x0000000000000000        0x0 contiki-nrf52dk.a(watchdog.o)
+ .text.watchdog_reboot
+                0x0000000000000000       0x20 contiki-nrf52dk.a(watchdog.o)
+ .text          0x0000000000000000        0x0 contiki-nrf52dk.a(autostart.o)
+ .data          0x0000000000000000        0x0 contiki-nrf52dk.a(autostart.o)
+ .bss           0x0000000000000000        0x0 contiki-nrf52dk.a(autostart.o)
+ .text.autostart_exit
+                0x0000000000000000       0x18 contiki-nrf52dk.a(autostart.o)
+ .text          0x0000000000000000        0x0 contiki-nrf52dk.a(ctimer.o)
+ .data          0x0000000000000000        0x0 contiki-nrf52dk.a(ctimer.o)
+ .bss           0x0000000000000000        0x0 contiki-nrf52dk.a(ctimer.o)
+ .text.ctimer_set_with_process
+                0x0000000000000000       0x4c contiki-nrf52dk.a(ctimer.o)
+ .text.ctimer_set
+                0x0000000000000000       0x18 contiki-nrf52dk.a(ctimer.o)
+ .text.ctimer_reset
+                0x0000000000000000       0x38 contiki-nrf52dk.a(ctimer.o)
+ .text.ctimer_restart
+                0x0000000000000000       0x38 contiki-nrf52dk.a(ctimer.o)
+ .text.ctimer_stop
+                0x0000000000000000       0x34 contiki-nrf52dk.a(ctimer.o)
+ .text.ctimer_expired
+                0x0000000000000000       0x40 contiki-nrf52dk.a(ctimer.o)
+ .text          0x0000000000000000        0x0 contiki-nrf52dk.a(energest.o)
+ .data          0x0000000000000000        0x0 contiki-nrf52dk.a(energest.o)
+ .bss           0x0000000000000000        0x0 contiki-nrf52dk.a(energest.o)
+ .text.energest_type_time
+                0x0000000000000000       0x3c contiki-nrf52dk.a(energest.o)
+ .text.energest_leveldevice_leveltime
+                0x0000000000000000        0x4 contiki-nrf52dk.a(energest.o)
+ .text.energest_type_set
+                0x0000000000000000        0xc contiki-nrf52dk.a(energest.o)
+ .text.energest_flush
+                0x0000000000000000       0x4c contiki-nrf52dk.a(energest.o)
+ .text          0x0000000000000000        0x0 contiki-nrf52dk.a(etimer.o)
+ .data          0x0000000000000000        0x0 contiki-nrf52dk.a(etimer.o)
+ .bss           0x0000000000000000        0x0 contiki-nrf52dk.a(etimer.o)
+ .text.etimer_reset_with_new_interval
+                0x0000000000000000       0x18 contiki-nrf52dk.a(etimer.o)
+ .text.etimer_restart
+                0x0000000000000000       0x14 contiki-nrf52dk.a(etimer.o)
+ .text.etimer_adjust
+                0x0000000000000000        0xc contiki-nrf52dk.a(etimer.o)
+ .text.etimer_expiration_time
+                0x0000000000000000        0x8 contiki-nrf52dk.a(etimer.o)
+ .text.etimer_start_time
+                0x0000000000000000        0x4 contiki-nrf52dk.a(etimer.o)
+ .text.etimer_next_expiration_time
+                0x0000000000000000       0x14 contiki-nrf52dk.a(etimer.o)
+ .text.etimer_stop
+                0x0000000000000000       0x44 contiki-nrf52dk.a(etimer.o)
+ .text          0x0000000000000000        0x0 contiki-nrf52dk.a(process.o)
+ .data          0x0000000000000000        0x0 contiki-nrf52dk.a(process.o)
+ .bss           0x0000000000000000        0x0 contiki-nrf52dk.a(process.o)
+ .text.process_exit
+                0x0000000000000000        0xc contiki-nrf52dk.a(process.o)
+ .text.process_nevents
+                0x0000000000000000       0x14 contiki-nrf52dk.a(process.o)
+ .text.process_post_synch
+                0x0000000000000000       0x18 contiki-nrf52dk.a(process.o)
+ .text.process_is_running
+                0x0000000000000000        0xc contiki-nrf52dk.a(process.o)
+ .text          0x0000000000000000        0x0 contiki-nrf52dk.a(rtimer.o)
+ .data          0x0000000000000000        0x0 contiki-nrf52dk.a(rtimer.o)
+ .bss           0x0000000000000000        0x0 contiki-nrf52dk.a(rtimer.o)
+ .text.rtimer_set
+                0x0000000000000000       0x2c contiki-nrf52dk.a(rtimer.o)
+ .text          0x0000000000000000        0x0 contiki-nrf52dk.a(timer.o)
+ .data          0x0000000000000000        0x0 contiki-nrf52dk.a(timer.o)
+ .bss           0x0000000000000000        0x0 contiki-nrf52dk.a(timer.o)
+ .text.timer_restart
+                0x0000000000000000        0xc contiki-nrf52dk.a(timer.o)
+ .text.timer_remaining
+                0x0000000000000000       0x10 contiki-nrf52dk.a(timer.o)
+ .text          0x0000000000000000        0x0 contiki-nrf52dk.a(leds.o)
+ .data          0x0000000000000000        0x0 contiki-nrf52dk.a(leds.o)
+ .bss           0x0000000000000000        0x0 contiki-nrf52dk.a(leds.o)
+ .text.show_leds
+                0x0000000000000000       0xf0 contiki-nrf52dk.a(leds.o)
+ .text.leds_blink
+                0x0000000000000000       0x28 contiki-nrf52dk.a(leds.o)
+ .text.leds_get
+                0x0000000000000000        0x4 contiki-nrf52dk.a(leds.o)
+ .text.leds_set
+                0x0000000000000000        0x4 contiki-nrf52dk.a(leds.o)
+ .text.leds_on  0x0000000000000000       0x10 contiki-nrf52dk.a(leds.o)
+ .text.leds_off
+                0x0000000000000000       0x10 contiki-nrf52dk.a(leds.o)
+ .text.leds_toggle
+                0x0000000000000000       0x10 contiki-nrf52dk.a(leds.o)
+ .text          0x0000000000000000        0x0 contiki-nrf52dk.a(serial-line.o)
+ .data          0x0000000000000000        0x0 contiki-nrf52dk.a(serial-line.o)
+ .bss           0x0000000000000000        0x0 contiki-nrf52dk.a(serial-line.o)
+ .text          0x0000000000000000        0x0 contiki-nrf52dk.a(list.o)
+ .data          0x0000000000000000        0x0 contiki-nrf52dk.a(list.o)
+ .bss           0x0000000000000000        0x0 contiki-nrf52dk.a(list.o)
+ .text.list_copy
+                0x0000000000000000        0x8 contiki-nrf52dk.a(list.o)
+ .text.list_tail
+                0x0000000000000000       0x14 contiki-nrf52dk.a(list.o)
+ .text.list_add
+                0x0000000000000000       0x60 contiki-nrf52dk.a(list.o)
+ .text.list_push
+                0x0000000000000000       0x48 contiki-nrf52dk.a(list.o)
+ .text.list_chop
+                0x0000000000000000       0x24 contiki-nrf52dk.a(list.o)
+ .text.list_pop
+                0x0000000000000000        0xc contiki-nrf52dk.a(list.o)
+ .text.list_length
+                0x0000000000000000       0x14 contiki-nrf52dk.a(list.o)
+ .text.list_insert
+                0x0000000000000000       0x4c contiki-nrf52dk.a(list.o)
+ .text.list_item_next
+                0x0000000000000000        0x8 contiki-nrf52dk.a(list.o)
+ .text          0x0000000000000000        0x0 contiki-nrf52dk.a(random.o)
+ .data          0x0000000000000000        0x0 contiki-nrf52dk.a(random.o)
+ .bss           0x0000000000000000        0x0 contiki-nrf52dk.a(random.o)
+ .text.random_rand
+                0x0000000000000000       0x38 contiki-nrf52dk.a(random.o)
+ .text          0x0000000000000000        0x0 contiki-nrf52dk.a(ringbuf.o)
+ .data          0x0000000000000000        0x0 contiki-nrf52dk.a(ringbuf.o)
+ .bss           0x0000000000000000        0x0 contiki-nrf52dk.a(ringbuf.o)
+ .text.ringbuf_size
+                0x0000000000000000        0x8 contiki-nrf52dk.a(ringbuf.o)
+ .text          0x0000000000000000        0x0 contiki-nrf52dk.a(sensors.o)
+ .data          0x0000000000000000        0x0 contiki-nrf52dk.a(sensors.o)
+ .bss           0x0000000000000000        0x0 contiki-nrf52dk.a(sensors.o)
+ .text.sensors_first
+                0x0000000000000000        0xc contiki-nrf52dk.a(sensors.o)
+ .text.sensors_next
+                0x0000000000000000       0x4c contiki-nrf52dk.a(sensors.o)
+ .text.sensors_find
+                0x0000000000000000       0x4c contiki-nrf52dk.a(sensors.o)
+ .text          0x0000000000000000        0x0 contiki-nrf52dk.a(leds-arch.o)
+ .data          0x0000000000000000        0x0 contiki-nrf52dk.a(leds-arch.o)
+ .bss           0x0000000000000000        0x0 contiki-nrf52dk.a(leds-arch.o)
+ .text.leds_arch_get
+                0x0000000000000000       0x10 contiki-nrf52dk.a(leds-arch.o)
+ .text.leds_arch_set
+                0x0000000000000000       0x24 contiki-nrf52dk.a(leds-arch.o)
+ .text          0x0000000000000000        0x0 contiki-nrf52dk.a(nrf52dk-sensors)
+ .data          0x0000000000000000        0x0 contiki-nrf52dk.a(nrf52dk-sensors)
+ .bss           0x0000000000000000        0x0 contiki-nrf52dk.a(nrf52dk-sensors)
+ .text          0x0000000000000000        0x0 contiki-nrf52dk.a(button-sensor.o)
+ .data          0x0000000000000000        0x0 contiki-nrf52dk.a(button-sensor.o)
+ .bss           0x0000000000000000        0x0 contiki-nrf52dk.a(button-sensor.o)
+ .text          0x0000000000000000        0x0 contiki-nrf52dk.a(temperature-sen)
+ .data          0x0000000000000000        0x0 contiki-nrf52dk.a(temperature-sen)
+ .bss           0x0000000000000000        0x0 contiki-nrf52dk.a(temperature-sen)
+ .text          0x0000000000000000        0x0 contiki-nrf52dk.a(dbg.o)
+ .data          0x0000000000000000        0x0 contiki-nrf52dk.a(dbg.o)
+ .bss           0x0000000000000000        0x0 contiki-nrf52dk.a(dbg.o)
+ .text.dbg_putchar
+                0x0000000000000000       0x10 contiki-nrf52dk.a(dbg.o)
+ .text          0x0000000000000000        0x0 nrf52832.a(nrf_drv_gpiote.)
+ .data          0x0000000000000000        0x0 nrf52832.a(nrf_drv_gpiote.)
+ .bss           0x0000000000000000        0x0 nrf52832.a(nrf_drv_gpiote.)
+ .text.nrf_drv_gpiote_out_init
+                0x0000000000000000       0xb4 nrf52832.a(nrf_drv_gpiote.)
+ .text.nrf_drv_gpiote_out_uninit
+                0x0000000000000000       0x48 nrf52832.a(nrf_drv_gpiote.)
+ .text.nrf_drv_gpiote_out_set
+                0x0000000000000000       0x10 nrf52832.a(nrf_drv_gpiote.)
+ .text.nrf_drv_gpiote_out_clear
+                0x0000000000000000       0x10 nrf52832.a(nrf_drv_gpiote.)
+ .text.nrf_drv_gpiote_out_toggle
+                0x0000000000000000       0x20 nrf52832.a(nrf_drv_gpiote.)
+ .text.nrf_drv_gpiote_out_task_enable
+                0x0000000000000000       0x38 nrf52832.a(nrf_drv_gpiote.)
+ .text.nrf_drv_gpiote_out_task_disable
+                0x0000000000000000       0x24 nrf52832.a(nrf_drv_gpiote.)
+ .text.nrf_drv_gpiote_out_task_addr_get
+                0x0000000000000000       0x1c nrf52832.a(nrf_drv_gpiote.)
+ .text.nrf_drv_gpiote_out_task_force
+                0x0000000000000000       0x30 nrf52832.a(nrf_drv_gpiote.)
+ .text.nrf_drv_gpiote_out_task_trigger
+                0x0000000000000000       0x20 nrf52832.a(nrf_drv_gpiote.)
+ .text.nrf_drv_gpiote_in_uninit
+                0x0000000000000000       0x74 nrf52832.a(nrf_drv_gpiote.)
+ .text.nrf_drv_gpiote_uninit
+                0x0000000000000000       0x54 nrf52832.a(nrf_drv_gpiote.)
+ .text.nrf_drv_gpiote_in_event_addr_get
+                0x0000000000000000       0x1c nrf52832.a(nrf_drv_gpiote.)
+ .text          0x0000000000000000        0x0 nrf52832.a(nrf_drv_rtc.o)
+ .data          0x0000000000000000        0x0 nrf52832.a(nrf_drv_rtc.o)
+ .bss           0x0000000000000000        0x0 nrf52832.a(nrf_drv_rtc.o)
+ .text.nrf_drv_rtc_uninit
+                0x0000000000000000       0x48 nrf52832.a(nrf_drv_rtc.o)
+ .text.nrf_drv_rtc_disable
+                0x0000000000000000       0x18 nrf52832.a(nrf_drv_rtc.o)
+ .text.nrf_drv_rtc_cc_disable
+                0x0000000000000000       0x48 nrf52832.a(nrf_drv_rtc.o)
+ .text.nrf_drv_rtc_cc_set
+                0x0000000000000000       0x9c nrf52832.a(nrf_drv_rtc.o)
+ .text.nrf_drv_rtc_tick_disable
+                0x0000000000000000       0x10 nrf52832.a(nrf_drv_rtc.o)
+ .text.nrf_drv_rtc_overflow_enable
+                0x0000000000000000       0x2c nrf52832.a(nrf_drv_rtc.o)
+ .text.nrf_drv_rtc_overflow_disable
+                0x0000000000000000       0x10 nrf52832.a(nrf_drv_rtc.o)
+ .text.nrf_drv_rtc_max_ticks_get
+                0x0000000000000000       0x24 nrf52832.a(nrf_drv_rtc.o)
+ .text          0x0000000000000000        0x0 nrf52832.a(nrf_drv_clock.o)
+ .data          0x0000000000000000        0x0 nrf52832.a(nrf_drv_clock.o)
+ .bss           0x0000000000000000        0x0 nrf52832.a(nrf_drv_clock.o)
+ .text.nrf_drv_clock_uninit
+                0x0000000000000000       0x38 nrf52832.a(nrf_drv_clock.o)
+ .text.nrf_drv_clock_lfclk_release
+                0x0000000000000000       0x1c nrf52832.a(nrf_drv_clock.o)
+ .text.nrf_drv_clock_lfclk_is_running
+                0x0000000000000000       0x10 nrf52832.a(nrf_drv_clock.o)
+ .text.nrf_drv_clock_hfclk_request
+                0x0000000000000000       0x10 nrf52832.a(nrf_drv_clock.o)
+ .text.nrf_drv_clock_hfclk_release
+                0x0000000000000000       0x10 nrf52832.a(nrf_drv_clock.o)
+ .text.nrf_drv_clock_hfclk_is_running
+                0x0000000000000000       0x10 nrf52832.a(nrf_drv_clock.o)
+ .text.nrf_drv_clock_calibration_force
+                0x0000000000000000        0x4 nrf52832.a(nrf_drv_clock.o)
+ .text.nrf_drv_clock_is_calibrating
+                0x0000000000000000        0x4 nrf52832.a(nrf_drv_clock.o)
+ .text          0x0000000000000000        0x0 nrf52832.a(nrf_drv_timer.o)
+ .data          0x0000000000000000        0x0 nrf52832.a(nrf_drv_timer.o)
+ .bss           0x0000000000000000        0x0 nrf52832.a(nrf_drv_timer.o)
+ .text.nrf_drv_timer_uninit
+                0x0000000000000000       0x7c nrf52832.a(nrf_drv_timer.o)
+ .text.nrf_drv_timer_disable
+                0x0000000000000000       0x14 nrf52832.a(nrf_drv_timer.o)
+ .text.nrf_drv_timer_resume
+                0x0000000000000000        0x8 nrf52832.a(nrf_drv_timer.o)
+ .text.nrf_drv_timer_pause
+                0x0000000000000000        0x8 nrf52832.a(nrf_drv_timer.o)
+ .text.nrf_drv_timer_clear
+                0x0000000000000000        0x8 nrf52832.a(nrf_drv_timer.o)
+ .text.nrf_drv_timer_increment
+                0x0000000000000000        0x8 nrf52832.a(nrf_drv_timer.o)
+ .text.nrf_drv_timer_task_address_get
+                0x0000000000000000        0x8 nrf52832.a(nrf_drv_timer.o)
+ .text.nrf_drv_timer_event_address_get
+                0x0000000000000000        0x8 nrf52832.a(nrf_drv_timer.o)
+ .text.nrf_drv_timer_capture_task_address_get
+                0x0000000000000000        0xc nrf52832.a(nrf_drv_timer.o)
+ .text.nrf_drv_timer_compare_event_address_get
+                0x0000000000000000        0xc nrf52832.a(nrf_drv_timer.o)
+ .text.nrf_drv_timer_capture_get
+                0x0000000000000000        0xc nrf52832.a(nrf_drv_timer.o)
+ .text.nrf_drv_timer_extended_compare
+                0x0000000000000000       0x48 nrf52832.a(nrf_drv_timer.o)
+ .text.nrf_drv_timer_us_to_ticks
+                0x0000000000000000       0x18 nrf52832.a(nrf_drv_timer.o)
+ .text.nrf_drv_timer_ms_to_ticks
+                0x0000000000000000       0x18 nrf52832.a(nrf_drv_timer.o)
+ .text.nrf_drv_timer_compare_int_enable
+                0x0000000000000000       0x24 nrf52832.a(nrf_drv_timer.o)
+ .text.nrf_drv_timer_compare_int_disable
+                0x0000000000000000       0x10 nrf52832.a(nrf_drv_timer.o)
+ .text          0x0000000000000000        0x0 nrf52832.a(nrf_drv_wdt.o)
+ .data          0x0000000000000000        0x0 nrf52832.a(nrf_drv_wdt.o)
+ .bss           0x0000000000000000        0x0 nrf52832.a(nrf_drv_wdt.o)
+ .text.nrf_drv_wdt_feed
+                0x0000000000000000       0x30 nrf52832.a(nrf_drv_wdt.o)
+ .text          0x0000000000000000        0x0 nrf52832.a(nrf_drv_rng.o)
+ .data          0x0000000000000000        0x0 nrf52832.a(nrf_drv_rng.o)
+ .bss           0x0000000000000000        0x0 nrf52832.a(nrf_drv_rng.o)
+ .text.nrf_drv_rng_uninit
+                0x0000000000000000       0x34 nrf52832.a(nrf_drv_rng.o)
+ .text.nrf_drv_rng_bytes_available
+                0x0000000000000000       0x14 nrf52832.a(nrf_drv_rng.o)
+ .text.nrf_drv_rng_pool_capacity
+                0x0000000000000000        0x8 nrf52832.a(nrf_drv_rng.o)
+ .text.nrf_drv_rng_rand
+                0x0000000000000000       0x60 nrf52832.a(nrf_drv_rng.o)
+ .text          0x0000000000000000        0x0 nrf52832.a(nrf_drv_uart.o)
+ .data          0x0000000000000000        0x0 nrf52832.a(nrf_drv_uart.o)
+ .bss           0x0000000000000000        0x0 nrf52832.a(nrf_drv_uart.o)
+ .text.nrf_drv_uart_uninit
+                0x0000000000000000       0xb8 nrf52832.a(nrf_drv_uart.o)
+ .text.nrf_drv_uart_rx_disable
+                0x0000000000000000       0x18 nrf52832.a(nrf_drv_uart.o)
+ .text.nrf_drv_uart_errorsrc_get
+                0x0000000000000000       0x34 nrf52832.a(nrf_drv_uart.o)
+ .text.nrf_drv_uart_tx_abort
+                0x0000000000000000       0x68 nrf52832.a(nrf_drv_uart.o)
+ .text.nrf_drv_uart_rx_abort
+                0x0000000000000000       0x2c nrf52832.a(nrf_drv_uart.o)
+ .text          0x0000000000000000        0x0 nrf52832.a(app_error.o)
+ .data          0x0000000000000000        0x0 nrf52832.a(app_error.o)
+ .bss           0x0000000000000000        0x0 nrf52832.a(app_error.o)
+ .text          0x0000000000000000        0x0 nrf52832.a(app_fifo.o)
+ .data          0x0000000000000000        0x0 nrf52832.a(app_fifo.o)
+ .bss           0x0000000000000000        0x0 nrf52832.a(app_fifo.o)
+ .text.app_fifo_get
+                0x0000000000000000       0x2c nrf52832.a(app_fifo.o)
+ .text.app_fifo_flush
+                0x0000000000000000        0xc nrf52832.a(app_fifo.o)
+ .text.app_fifo_read
+                0x0000000000000000       0x4c nrf52832.a(app_fifo.o)
+ .text.app_fifo_write
+                0x0000000000000000       0x50 nrf52832.a(app_fifo.o)
+ .text          0x0000000000000000        0x0 nrf52832.a(app_util_platfo)
+ .data          0x0000000000000000        0x0 nrf52832.a(app_util_platfo)
+ .bss           0x0000000000000000        0x0 nrf52832.a(app_util_platfo)
+ .data          0x0000000000000000        0x0 nrf52832.a(gcc_startup_nrf)
+ .bss           0x0000000000000000        0x0 nrf52832.a(gcc_startup_nrf)
+ .ARM.extab     0x0000000000000000        0x0 nrf52832.a(gcc_startup_nrf)
+ .text          0x0000000000000000        0x0 nrf52832.a(nrf_drv_common.)
+ .data          0x0000000000000000        0x0 nrf52832.a(nrf_drv_common.)
+ .bss           0x0000000000000000        0x0 nrf52832.a(nrf_drv_common.)
+ .text          0x0000000000000000        0x0 nrf52832.a(system_nrf52.o)
+ .data          0x0000000000000000        0x0 nrf52832.a(system_nrf52.o)
+ .bss           0x0000000000000000        0x0 nrf52832.a(system_nrf52.o)
+ .text.SystemCoreClockUpdate
+                0x0000000000000000       0x10 nrf52832.a(system_nrf52.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/libgcc.a(_udivmoddi4.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/libgcc.a(_udivmoddi4.o)
+ .ARM.extab     0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/libgcc.a(_udivmoddi4.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/libgcc.a(_dvmd_tls.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/libgcc.a(_dvmd_tls.o)
+ .text          0x0000000000000000       0x10 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-strlen.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-strlen.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x0000000000000000       0x1b /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-strlen.o)
+ .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-strncmp.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-strncmp.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-strncmp.o)
+ .text.strncmp  0x0000000000000000       0x2a /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-strncmp.o)
+ .debug_frame   0x0000000000000000       0x2c /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-strncmp.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-strncmp.o)
+ .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crtend.o
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crtend.o
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crtend.o
+ .eh_frame      0x0000000000000000        0x4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crtend.o
+ .jcr           0x0000000000000000        0x4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crtend.o
+ .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crtn.o
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x000000000001f000 0x0000000000061000 xr
+RAM              0x0000000020002800 0x000000000000d800 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crti.o
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crtbegin.o
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libnosys.a
+LOAD testapp1.co
+LOAD contiki-nrf52dk.a
+LOAD nrf52832.a
+LOAD /home/johan/Downloads/nrf5_iot_sdk_3288530/components/iot/ble_6lowpan/lib/ble_6lowpan.a
+START GROUP
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/libgcc.a
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a
+END GROUP
+START GROUP
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/libgcc.a
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a
+END GROUP
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crtend.o
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crtn.o
+START GROUP
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/libgcc.a
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libnosys.a
+END GROUP
+
+.text           0x000000000001f000     0x3704
+ *(.Vectors)
+ .Vectors       0x000000000001f000      0x400 nrf52832.a(gcc_startup_nrf)
+                0x000000000001f000                __Vectors
+ *(.text*)
+ .text          0x000000000001f400       0xa4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crtbegin.o
+ .text          0x000000000001f4a4       0x74 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+                0x000000000001f4a4                _mainCRTStartup
+                0x000000000001f4a4                _start
+ .text.exit     0x000000000001f518       0x28 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-exit.o)
+                0x000000000001f518                exit
+ .text.__libc_init_array
+                0x000000000001f540       0x4c /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-init.o)
+                0x000000000001f540                __libc_init_array
+ .text.memset   0x000000000001f58c       0x10 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-memset.o)
+                0x000000000001f58c                memset
+ .text._exit    0x000000000001f59c        0x4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libnosys.a(_exit.o)
+                0x000000000001f59c                _exit
+ .text.process_thread_prime_process
+                0x000000000001f5a0       0x88 testapp1.co
+ .text.process_thread_print_process
+                0x000000000001f628       0x6c testapp1.co
+ .text.startup.main
+                0x000000000001f694       0xa4 contiki-nrf52dk.a(contiki-main.o)
+                0x000000000001f694                main
+ .text.write_str
+                0x000000000001f738       0x14 contiki-nrf52dk.a(dbg-printf.o)
+ .text.printf   0x000000000001f74c       0x24 contiki-nrf52dk.a(dbg-printf.o)
+                0x000000000001f74c                printf
+ .text.fill_space
+                0x000000000001f770       0x3c contiki-nrf52dk.a(strformat.o)
+ .text.format_str_v
+                0x000000000001f7ac      0x954 contiki-nrf52dk.a(strformat.o)
+                0x000000000001f7ac                format_str_v
+ .text.clock_init
+                0x0000000000020100       0x50 contiki-nrf52dk.a(clock.o)
+                0x0000000000020100                clock_init
+ .text.clock_time
+                0x0000000000020150        0xc contiki-nrf52dk.a(clock.o)
+                0x0000000000020150                clock_time
+ .text.clock_update
+                0x000000000002015c       0x20 contiki-nrf52dk.a(clock.o)
+                0x000000000002015c                clock_update
+ .text.rtc_handler
+                0x000000000002017c        0xc contiki-nrf52dk.a(clock.o)
+ .text.timer_event_handler
+                0x0000000000020188        0xc contiki-nrf52dk.a(rtimer-arch.o)
+ .text.rtimer_arch_init
+                0x0000000000020194       0x28 contiki-nrf52dk.a(rtimer-arch.o)
+                0x0000000000020194                rtimer_arch_init
+ .text.rtimer_arch_schedule
+                0x00000000000201bc       0x10 contiki-nrf52dk.a(rtimer-arch.o)
+                0x00000000000201bc                rtimer_arch_schedule
+ .text.rtimer_arch_now
+                0x00000000000201cc        0xc contiki-nrf52dk.a(rtimer-arch.o)
+                0x00000000000201cc                rtimer_arch_now
+ .text.uart_event_handler
+                0x00000000000201d8       0x8c contiki-nrf52dk.a(uart0.o)
+ .text.uart0_set_input
+                0x0000000000020264        0xc contiki-nrf52dk.a(uart0.o)
+                0x0000000000020264                uart0_set_input
+ .text.uart0_writeb
+                0x0000000000020270       0x38 contiki-nrf52dk.a(uart0.o)
+                0x0000000000020270                uart0_writeb
+ .text.uart0_init
+                0x00000000000202a8       0x54 contiki-nrf52dk.a(uart0.o)
+                0x00000000000202a8                uart0_init
+ .text.wdt_event_handler
+                0x00000000000202fc       0x14 contiki-nrf52dk.a(watchdog.o)
+ .text.watchdog_init
+                0x0000000000020310       0x3c contiki-nrf52dk.a(watchdog.o)
+                0x0000000000020310                watchdog_init
+ .text.watchdog_start
+                0x000000000002034c       0x10 contiki-nrf52dk.a(watchdog.o)
+                0x000000000002034c                watchdog_start
+ .text.watchdog_periodic
+                0x000000000002035c       0x18 contiki-nrf52dk.a(watchdog.o)
+                0x000000000002035c                watchdog_periodic
+ .text.autostart_start
+                0x0000000000020374       0x18 contiki-nrf52dk.a(autostart.o)
+                0x0000000000020374                autostart_start
+ .text.process_thread_ctimer_process
+                0x000000000002038c       0x94 contiki-nrf52dk.a(ctimer.o)
+ .text.ctimer_init
+                0x0000000000020420       0x28 contiki-nrf52dk.a(ctimer.o)
+                0x0000000000020420                ctimer_init
+ .text.energest_init
+                0x0000000000020448       0x30 contiki-nrf52dk.a(energest.o)
+                0x0000000000020448                energest_init
+ .text.update_time
+                0x0000000000020478       0x44 contiki-nrf52dk.a(etimer.o)
+ .text.process_thread_etimer_process
+                0x00000000000204bc       0xc8 contiki-nrf52dk.a(etimer.o)
+ .text.add_timer
+                0x0000000000020584       0x54 contiki-nrf52dk.a(etimer.o)
+ .text.etimer_request_poll
+                0x00000000000205d8        0xc contiki-nrf52dk.a(etimer.o)
+                0x00000000000205d8                etimer_request_poll
+ .text.etimer_set
+                0x00000000000205e4       0x14 contiki-nrf52dk.a(etimer.o)
+                0x00000000000205e4                etimer_set
+ .text.etimer_reset
+                0x00000000000205f8       0x14 contiki-nrf52dk.a(etimer.o)
+                0x00000000000205f8                etimer_reset
+ .text.etimer_expired
+                0x000000000002060c        0xc contiki-nrf52dk.a(etimer.o)
+                0x000000000002060c                etimer_expired
+ .text.etimer_pending
+                0x0000000000020618       0x10 contiki-nrf52dk.a(etimer.o)
+                0x0000000000020618                etimer_pending
+ .text.exit_process
+                0x0000000000020628       0xb0 contiki-nrf52dk.a(process.o)
+ .text.call_process.part.0
+                0x00000000000206d8       0x38 contiki-nrf52dk.a(process.o)
+ .text.do_poll  0x0000000000020710       0x3c contiki-nrf52dk.a(process.o)
+ .text.process_alloc_event
+                0x000000000002074c       0x10 contiki-nrf52dk.a(process.o)
+                0x000000000002074c                process_alloc_event
+ .text.process_start
+                0x000000000002075c       0x48 contiki-nrf52dk.a(process.o)
+                0x000000000002075c                process_start
+ .text.process_init
+                0x00000000000207a4       0x34 contiki-nrf52dk.a(process.o)
+                0x00000000000207a4                process_init
+ .text.process_run
+                0x00000000000207d8       0xd8 contiki-nrf52dk.a(process.o)
+                0x00000000000207d8                process_run
+ .text.process_post
+                0x00000000000208b0       0x40 contiki-nrf52dk.a(process.o)
+                0x00000000000208b0                process_post
+ .text.process_poll
+                0x00000000000208f0       0x18 contiki-nrf52dk.a(process.o)
+                0x00000000000208f0                process_poll
+ .text.rtimer_init
+                0x0000000000020908        0x4 contiki-nrf52dk.a(rtimer.o)
+                0x0000000000020908                rtimer_init
+ .text.rtimer_run_next
+                0x000000000002090c       0x28 contiki-nrf52dk.a(rtimer.o)
+                0x000000000002090c                rtimer_run_next
+ .text.timer_set
+                0x0000000000020934       0x10 contiki-nrf52dk.a(timer.o)
+                0x0000000000020934                timer_set
+ .text.timer_reset
+                0x0000000000020944        0xc contiki-nrf52dk.a(timer.o)
+                0x0000000000020944                timer_reset
+ .text.timer_expired
+                0x0000000000020950       0x1c contiki-nrf52dk.a(timer.o)
+                0x0000000000020950                timer_expired
+ .text.leds_init
+                0x000000000002096c       0x14 contiki-nrf52dk.a(leds.o)
+                0x000000000002096c                leds_init
+ .text.process_thread_serial_line_process
+                0x0000000000020980       0xa8 contiki-nrf52dk.a(serial-line.o)
+ .text.serial_line_input_byte
+                0x0000000000020a28       0x54 contiki-nrf52dk.a(serial-line.o)
+                0x0000000000020a28                serial_line_input_byte
+ .text.serial_line_init
+                0x0000000000020a7c       0x24 contiki-nrf52dk.a(serial-line.o)
+                0x0000000000020a7c                serial_line_init
+ .text.list_init
+                0x0000000000020aa0        0x8 contiki-nrf52dk.a(list.o)
+                0x0000000000020aa0                list_init
+ .text.list_head
+                0x0000000000020aa8        0x4 contiki-nrf52dk.a(list.o)
+                0x0000000000020aa8                list_head
+ .text.list_remove
+                0x0000000000020aac       0x3c contiki-nrf52dk.a(list.o)
+                0x0000000000020aac                list_remove
+ .text.random_init
+                0x0000000000020ae8       0x18 contiki-nrf52dk.a(random.o)
+                0x0000000000020ae8                random_init
+ .text.ringbuf_init
+                0x0000000000020b00       0x10 contiki-nrf52dk.a(ringbuf.o)
+                0x0000000000020b00                ringbuf_init
+ .text.ringbuf_put
+                0x0000000000020b10       0x30 contiki-nrf52dk.a(ringbuf.o)
+                0x0000000000020b10                ringbuf_put
+ .text.ringbuf_get
+                0x0000000000020b40       0x28 contiki-nrf52dk.a(ringbuf.o)
+                0x0000000000020b40                ringbuf_get
+ .text.ringbuf_elements
+                0x0000000000020b68        0xc contiki-nrf52dk.a(ringbuf.o)
+                0x0000000000020b68                ringbuf_elements
+ .text.process_thread_sensors_process
+                0x0000000000020b74       0xf8 contiki-nrf52dk.a(sensors.o)
+ .text.sensors_changed
+                0x0000000000020c6c       0x50 contiki-nrf52dk.a(sensors.o)
+                0x0000000000020c6c                sensors_changed
+ .text.leds_arch_init
+                0x0000000000020cbc       0x3c contiki-nrf52dk.a(leds-arch.o)
+                0x0000000000020cbc                leds_arch_init
+ .text.config   0x0000000000020cf8       0x88 contiki-nrf52dk.a(button-sensor.o)
+ .text.config_button_4
+                0x0000000000020d80        0x8 contiki-nrf52dk.a(button-sensor.o)
+ .text.config_button_3
+                0x0000000000020d88        0x8 contiki-nrf52dk.a(button-sensor.o)
+ .text.config_button_2
+                0x0000000000020d90        0x8 contiki-nrf52dk.a(button-sensor.o)
+ .text.config_button_1
+                0x0000000000020d98        0x8 contiki-nrf52dk.a(button-sensor.o)
+ .text.gpiote_event_handler
+                0x0000000000020da0       0x5c contiki-nrf52dk.a(button-sensor.o)
+ .text.status_button_3
+                0x0000000000020dfc       0x18 contiki-nrf52dk.a(button-sensor.o)
+ .text.value_button_1
+                0x0000000000020e14       0x24 contiki-nrf52dk.a(button-sensor.o)
+ .text.status_button_4
+                0x0000000000020e38       0x18 contiki-nrf52dk.a(button-sensor.o)
+ .text.status_button_1
+                0x0000000000020e50       0x18 contiki-nrf52dk.a(button-sensor.o)
+ .text.status_button_2
+                0x0000000000020e68       0x18 contiki-nrf52dk.a(button-sensor.o)
+ .text.value_button_4
+                0x0000000000020e80       0x24 contiki-nrf52dk.a(button-sensor.o)
+ .text.value_button_3
+                0x0000000000020ea4       0x24 contiki-nrf52dk.a(button-sensor.o)
+ .text.value_button_2
+                0x0000000000020ec8       0x24 contiki-nrf52dk.a(button-sensor.o)
+ .text.value    0x0000000000020eec       0x1c contiki-nrf52dk.a(temperature-sen)
+ .text.configure
+                0x0000000000020f08       0x14 contiki-nrf52dk.a(temperature-sen)
+ .text.status   0x0000000000020f1c        0x4 contiki-nrf52dk.a(temperature-sen)
+ .text.dbg_send_bytes
+                0x0000000000020f20       0x38 contiki-nrf52dk.a(dbg.o)
+                0x0000000000020f20                dbg_send_bytes
+ .text.nrf_drv_gpiote_init
+                0x0000000000020f58       0x74 nrf52832.a(nrf_drv_gpiote.)
+                0x0000000000020f58                nrf_drv_gpiote_init
+ .text.nrf_drv_gpiote_is_init
+                0x0000000000020fcc       0x14 nrf52832.a(nrf_drv_gpiote.)
+                0x0000000000020fcc                nrf_drv_gpiote_is_init
+ .text.nrf_drv_gpiote_in_init
+                0x0000000000020fe0      0x104 nrf52832.a(nrf_drv_gpiote.)
+                0x0000000000020fe0                nrf_drv_gpiote_in_init
+ .text.nrf_drv_gpiote_in_event_enable
+                0x00000000000210e4       0xc4 nrf52832.a(nrf_drv_gpiote.)
+                0x00000000000210e4                nrf_drv_gpiote_in_event_enable
+ .text.nrf_drv_gpiote_in_event_disable
+                0x00000000000211a8       0x60 nrf52832.a(nrf_drv_gpiote.)
+                0x00000000000211a8                nrf_drv_gpiote_in_event_disable
+ .text.nrf_drv_gpiote_in_is_set
+                0x0000000000021208       0x14 nrf52832.a(nrf_drv_gpiote.)
+                0x0000000000021208                nrf_drv_gpiote_in_is_set
+ .text.GPIOTE_IRQHandler
+                0x000000000002121c      0x154 nrf52832.a(nrf_drv_gpiote.)
+                0x000000000002121c                GPIOTE_IRQHandler
+ .text.nrf_drv_rtc_init
+                0x0000000000021370       0x64 nrf52832.a(nrf_drv_rtc.o)
+                0x0000000000021370                nrf_drv_rtc_init
+ .text.nrf_drv_rtc_enable
+                0x00000000000213d4       0x18 nrf52832.a(nrf_drv_rtc.o)
+                0x00000000000213d4                nrf_drv_rtc_enable
+ .text.nrf_drv_rtc_tick_enable
+                0x00000000000213ec       0x2c nrf52832.a(nrf_drv_rtc.o)
+                0x00000000000213ec                nrf_drv_rtc_tick_enable
+ .text.RTC1_IRQHandler
+                0x0000000000021418       0xb4 nrf52832.a(nrf_drv_rtc.o)
+                0x0000000000021418                RTC1_IRQHandler
+ .text.lfclk_control
+                0x00000000000214cc       0x6c nrf52832.a(nrf_drv_clock.o)
+ .text.hfclk_control.constprop.3
+                0x0000000000021538       0x6c nrf52832.a(nrf_drv_clock.o)
+ .text.nrf_drv_clock_init
+                0x00000000000215a4       0x20 nrf52832.a(nrf_drv_clock.o)
+                0x00000000000215a4                nrf_drv_clock_init
+ .text.nrf_drv_clock_lfclk_request
+                0x00000000000215c4       0x1c nrf52832.a(nrf_drv_clock.o)
+                0x00000000000215c4                nrf_drv_clock_lfclk_request
+ .text.nrf_drv_timer_init
+                0x00000000000215e0       0x9c nrf52832.a(nrf_drv_timer.o)
+                0x00000000000215e0                nrf_drv_timer_init
+ .text.nrf_drv_timer_enable
+                0x000000000002167c       0x14 nrf52832.a(nrf_drv_timer.o)
+                0x000000000002167c                nrf_drv_timer_enable
+ .text.nrf_drv_timer_capture
+                0x0000000000021690       0x20 nrf52832.a(nrf_drv_timer.o)
+                0x0000000000021690                nrf_drv_timer_capture
+ .text.nrf_drv_timer_compare
+                0x00000000000216b0       0x28 nrf52832.a(nrf_drv_timer.o)
+                0x00000000000216b0                nrf_drv_timer_compare
+ .text.TIMER1_IRQHandler
+                0x00000000000216d8       0x54 nrf52832.a(nrf_drv_timer.o)
+                0x00000000000216d8                TIMER1_IRQHandler
+ .text.WDT_IRQHandler
+                0x000000000002172c       0x24 nrf52832.a(nrf_drv_wdt.o)
+                0x000000000002172c                WDT_IRQHandler
+ .text.nrf_drv_wdt_init
+                0x0000000000021750       0x54 nrf52832.a(nrf_drv_wdt.o)
+                0x0000000000021750                nrf_drv_wdt_init
+ .text.nrf_drv_wdt_enable
+                0x00000000000217a4       0x1c nrf52832.a(nrf_drv_wdt.o)
+                0x00000000000217a4                nrf_drv_wdt_enable
+ .text.nrf_drv_wdt_channel_alloc
+                0x00000000000217c0       0x44 nrf52832.a(nrf_drv_wdt.o)
+                0x00000000000217c0                nrf_drv_wdt_channel_alloc
+ .text.nrf_drv_wdt_channel_feed
+                0x0000000000021804       0x18 nrf52832.a(nrf_drv_wdt.o)
+                0x0000000000021804                nrf_drv_wdt_channel_feed
+ .text.nrf_drv_rng_init
+                0x000000000002181c       0x88 nrf52832.a(nrf_drv_rng.o)
+                0x000000000002181c                nrf_drv_rng_init
+ .text.RNG_IRQHandler
+                0x00000000000218a4       0x58 nrf52832.a(nrf_drv_rng.o)
+                0x00000000000218a4                RNG_IRQHandler
+ .text.nrf_drv_uart_init
+                0x00000000000218fc      0x174 nrf52832.a(nrf_drv_uart.o)
+                0x00000000000218fc                nrf_drv_uart_init
+ .text.nrf_drv_uart_tx
+                0x0000000000021a70      0x11c nrf52832.a(nrf_drv_uart.o)
+                0x0000000000021a70                nrf_drv_uart_tx
+ .text.nrf_drv_uart_rx
+                0x0000000000021b8c      0x170 nrf52832.a(nrf_drv_uart.o)
+                0x0000000000021b8c                nrf_drv_uart_rx
+ .text.nrf_drv_uart_rx_enable
+                0x0000000000021cfc       0x30 nrf52832.a(nrf_drv_uart.o)
+                0x0000000000021cfc                nrf_drv_uart_rx_enable
+ .text.UARTE0_UART0_IRQHandler
+                0x0000000000021d2c      0x24c nrf52832.a(nrf_drv_uart.o)
+                0x0000000000021d2c                UARTE0_UART0_IRQHandler
+ .text.app_error_handler
+                0x0000000000021f78       0x20 nrf52832.a(app_error.o)
+                0x0000000000021f78                app_error_handler
+ .text.app_fifo_init
+                0x0000000000021f98       0x20 nrf52832.a(app_fifo.o)
+                0x0000000000021f98                app_fifo_init
+ .text.app_fifo_put
+                0x0000000000021fb8       0x30 nrf52832.a(app_fifo.o)
+                0x0000000000021fb8                app_fifo_put
+ .text.critical_region_enter
+                0x0000000000021fe8       0x10 nrf52832.a(app_util_platfo)
+                0x0000000000021fe8                critical_region_enter
+ .text.critical_region_exit
+                0x0000000000021ff8       0x14 nrf52832.a(app_util_platfo)
+                0x0000000000021ff8                critical_region_exit
+ .text          0x000000000002200c       0x44 nrf52832.a(gcc_startup_nrf)
+                0x000000000002200c                Reset_Handler
+                0x000000000002203c                NMI_Handler
+                0x000000000002203e                HardFault_Handler
+                0x0000000000022040                MemoryManagement_Handler
+                0x0000000000022042                BusFault_Handler
+                0x0000000000022044                UsageFault_Handler
+                0x0000000000022046                SVC_Handler
+                0x0000000000022048                PendSV_Handler
+                0x000000000002204a                SysTick_Handler
+                0x000000000002204c                TIMER2_IRQHandler
+                0x000000000002204c                RTC0_IRQHandler
+                0x000000000002204c                SWI0_EGU0_IRQHandler
+                0x000000000002204c                SWI2_EGU2_IRQHandler
+                0x000000000002204c                PWM1_IRQHandler
+                0x000000000002204c                POWER_CLOCK_IRQHandler
+                0x000000000002204c                RADIO_IRQHandler
+                0x000000000002204c                PDM_IRQHandler
+                0x000000000002204c                TEMP_IRQHandler
+                0x000000000002204c                QDEC_IRQHandler
+                0x000000000002204c                TIMER3_IRQHandler
+                0x000000000002204c                SPIM0_SPIS0_TWIM0_TWIS0_SPI0_TWI0_IRQHandler
+                0x000000000002204c                TIMER4_IRQHandler
+                0x000000000002204c                I2S_IRQHandler
+                0x000000000002204c                SWI4_EGU4_IRQHandler
+                0x000000000002204c                TIMER0_IRQHandler
+                0x000000000002204c                PWM2_IRQHandler
+                0x000000000002204c                ECB_IRQHandler
+                0x000000000002204c                SPIM1_SPIS1_TWIM1_TWIS1_SPI1_TWI1_IRQHandler
+                0x000000000002204c                Default_Handler
+                0x000000000002204c                SAADC_IRQHandler
+                0x000000000002204c                CCM_AAR_IRQHandler
+                0x000000000002204c                SWI5_EGU5_IRQHandler
+                0x000000000002204c                RTC2_IRQHandler
+                0x000000000002204c                PWM0_IRQHandler
+                0x000000000002204c                SWI3_EGU3_IRQHandler
+                0x000000000002204c                SWI1_EGU1_IRQHandler
+                0x000000000002204c                SPIM2_SPIS2_SPI2_IRQHandler
+                0x000000000002204c                NFCT_IRQHandler
+                0x000000000002204c                MWU_IRQHandler
+                0x000000000002204c                COMP_LPCOMP_IRQHandler
+ .text.nrf_drv_common_irq_enable
+                0x0000000000022050       0x50 nrf52832.a(nrf_drv_common.)
+                0x0000000000022050                nrf_drv_common_irq_enable
+ .text.SystemInit
+                0x00000000000220a0      0x144 nrf52832.a(system_nrf52.o)
+                0x00000000000220a0                SystemInit
+ .text          0x00000000000221e4       0x30 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/libgcc.a(_aeabi_uldivmod.o)
+                0x00000000000221e4                __aeabi_uldivmod
+ .text          0x0000000000022214      0x2e4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/libgcc.a(_udivmoddi4.o)
+                0x0000000000022214                __udivmoddi4
+ .text          0x00000000000224f8        0x4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/libgcc.a(_dvmd_tls.o)
+                0x00000000000224f8                __aeabi_ldiv0
+                0x00000000000224f8                __aeabi_idiv0
+ *(.init)
+ .init          0x00000000000224fc        0x4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crti.o
+                0x00000000000224fc                _init
+ .init          0x0000000000022500        0x8 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crtn.o
+ *(.fini)
+ .fini          0x0000000000022508        0x4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crti.o
+                0x0000000000022508                _fini
+ .fini          0x000000000002250c        0x8 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crtn.o
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata.str1.1
+                0x0000000000022514        0x2 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-impure.o)
+ *fill*         0x0000000000022516        0x2 
+ .rodata._global_impure_ptr
+                0x0000000000022518        0x4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-impure.o)
+                0x0000000000022518                _global_impure_ptr
+ .rodata.autostart_processes
+                0x000000000002251c        0xc testapp1.co
+                0x000000000002251c                autostart_processes
+ .rodata.str1.4
+                0x0000000000022528       0x6a testapp1.co
+ *fill*         0x0000000000022592        0x2 
+ .rodata.buffer.3769
+                0x0000000000022594       0x10 contiki-nrf52dk.a(strformat.o)
+ .rodata.str1.4
+                0x00000000000225a4       0x46 contiki-nrf52dk.a(strformat.o)
+ *fill*         0x00000000000225ea        0x2 
+ .rodata.buffer.3760
+                0x00000000000225ec       0x10 contiki-nrf52dk.a(strformat.o)
+ .rodata.rtc    0x00000000000225fc        0x8 contiki-nrf52dk.a(clock.o)
+                0x00000000000225fc                rtc
+ .rodata.timer  0x0000000000022604        0x8 contiki-nrf52dk.a(rtimer-arch.o)
+ .rodata        0x000000000002260c       0x20 contiki-nrf52dk.a(uart0.o)
+ .rodata.str1.4
+                0x000000000002262c        0xf contiki-nrf52dk.a(ctimer.o)
+ *fill*         0x000000000002263b        0x1 
+ .rodata.str1.4
+                0x000000000002263c        0xc contiki-nrf52dk.a(etimer.o)
+ .rodata.str1.4
+                0x0000000000022648        0xe contiki-nrf52dk.a(serial-line.o)
+ *fill*         0x0000000000022656        0x2 
+ .rodata.str1.4
+                0x0000000000022658        0x8 contiki-nrf52dk.a(sensors.o)
+ .rodata.buttons
+                0x0000000000022660       0x40 contiki-nrf52dk.a(button-sensor.o)
+                0x0000000000022660                buttons
+ .rodata.str1.4
+                0x00000000000226a0        0x7 contiki-nrf52dk.a(button-sensor.o)
+ *fill*         0x00000000000226a7        0x1 
+ .rodata.str1.4
+                0x00000000000226a8        0xc contiki-nrf52dk.a(temperature-sen)
+ .rodata.temperature_sensor
+                0x00000000000226b4       0x10 contiki-nrf52dk.a(temperature-sen)
+                0x00000000000226b4                temperature_sensor
+ .rodata.m_default_config
+                0x00000000000226c4        0x6 nrf52832.a(nrf_drv_rtc.o)
+ *fill*         0x00000000000226ca        0x2 
+ .rodata.m_default_config
+                0x00000000000226cc        0x8 nrf52832.a(nrf_drv_timer.o)
+ .rodata.m_default_config
+                0x00000000000226d4        0xc nrf52832.a(nrf_drv_wdt.o)
+ .rodata.m_default_config
+                0x00000000000226e0        0x2 nrf52832.a(nrf_drv_rng.o)
+ *fill*         0x00000000000226e2        0x2 
+ .rodata.m_default_config
+                0x00000000000226e4       0x20 nrf52832.a(nrf_drv_uart.o)
+ *(.eh_frame*)
+ .eh_frame      0x0000000000022704        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crtbegin.o
+                0x0000000000022704                . = ALIGN (0x4)
+
+.glue_7         0x0000000000022704        0x0
+ .glue_7        0x0000000000022704        0x0 linker stubs
+
+.glue_7t        0x0000000000022704        0x0
+ .glue_7t       0x0000000000022704        0x0 linker stubs
+
+.vfp11_veneer   0x0000000000022704        0x0
+ .vfp11_veneer  0x0000000000022704        0x0 linker stubs
+
+.v4_bx          0x0000000000022704        0x0
+ .v4_bx         0x0000000000022704        0x0 linker stubs
+
+.iplt           0x0000000000022704        0x0
+ .iplt          0x0000000000022704        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crtbegin.o
+
+.ARM.extab      0x0000000000022704        0x0
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0000000000022704                . = ALIGN (0x4)
+                0x0000000000022704                __exidx_start = .
+
+.ARM.exidx      0x0000000000022704        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x0000000000022704        0x8 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .ARM.exidx     0x000000000002270c        0x0 nrf52832.a(gcc_startup_nrf)
+                                          0x8 (size before relaxing)
+ .ARM.exidx     0x000000000002270c        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/libgcc.a(_udivmoddi4.o)
+                                          0x8 (size before relaxing)
+                0x000000000002270c                . = ALIGN (0x4)
+                0x000000000002270c                __exidx_end = .
+                0x000000000002270c                __etext = .
+
+.rel.dyn        0x000000000002270c        0x0
+ .rel.iplt      0x000000000002270c        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crtbegin.o
+
+.data           0x0000000020002800       0xf0 load address 0x000000000002270c
+                0x0000000020002800                __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data.impure_data
+                0x0000000020002800       0x60 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-impure.o)
+ .data.prime_process
+                0x0000000020002860       0x10 testapp1.co
+                0x0000000020002860                prime_process
+ .data.i        0x0000000020002870        0x4 testapp1.co
+                0x0000000020002870                i
+ .data.print_process
+                0x0000000020002874       0x10 testapp1.co
+                0x0000000020002874                print_process
+ .data.ctxt     0x0000000020002884        0x8 contiki-nrf52dk.a(dbg-printf.o)
+ .data.ctimer_process
+                0x000000002000288c       0x10 contiki-nrf52dk.a(ctimer.o)
+                0x000000002000288c                ctimer_process
+ .data.etimer_process
+                0x000000002000289c       0x10 contiki-nrf52dk.a(etimer.o)
+                0x000000002000289c                etimer_process
+ .data.serial_line_process
+                0x00000000200028ac       0x10 contiki-nrf52dk.a(serial-line.o)
+                0x00000000200028ac                serial_line_process
+ .data.sensors_process
+                0x00000000200028bc       0x10 contiki-nrf52dk.a(sensors.o)
+                0x00000000200028bc                sensors_process
+ .data.sensors  0x00000000200028cc       0x18 contiki-nrf52dk.a(nrf52dk-sensors)
+                0x00000000200028cc                sensors
+ .data.SystemCoreClock
+                0x00000000200028e4        0x4 nrf52832.a(system_nrf52.o)
+                0x00000000200028e4                SystemCoreClock
+                0x00000000200028e8                . = ALIGN (0x4)
+                0x00000000200028e8                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x00000000200028e8                PROVIDE (__preinit_array_end, .)
+                0x00000000200028e8                . = ALIGN (0x4)
+                0x00000000200028e8                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x00000000200028e8        0x4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crtbegin.o
+                0x00000000200028ec                PROVIDE (__init_array_end, .)
+                0x00000000200028ec                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+ .fini_array    0x00000000200028ec        0x4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crtbegin.o
+                [!provide]                        PROVIDE (__fini_array_end, .)
+ *(.jcr)
+ .jcr           0x00000000200028f0        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crtbegin.o
+                0x00000000200028f0                . = ALIGN (0x4)
+                0x00000000200028f0                __data_end__ = .
+
+.tm_clone_table
+                0x00000000200028f0        0x0 load address 0x00000000000227fc
+ .tm_clone_table
+                0x00000000200028f0        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crtbegin.o
+ .tm_clone_table
+                0x00000000200028f0        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crtend.o
+
+.igot.plt       0x00000000200028f0        0x0 load address 0x00000000000227fc
+ .igot.plt      0x00000000200028f0        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crtbegin.o
+
+.bss            0x00000000200028f0      0x52c load address 0x00000000000227fc
+                0x00000000200028f0                . = ALIGN (0x4)
+                0x00000000200028f0                __bss_start__ = .
+ *(.bss*)
+ .bss           0x00000000200028f0       0x1c /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crtbegin.o
+ .bss.prime     0x000000002000290c        0x4 testapp1.co
+                0x000000002000290c                prime
+ .bss.et_prime.7146
+                0x0000000020002910       0x10 testapp1.co
+ .bss.et_print.7159
+                0x0000000020002920       0x10 testapp1.co
+ .bss.ticks     0x0000000020002930        0x4 contiki-nrf52dk.a(clock.o)
+ .bss.uart0_input_handler
+                0x0000000020002934        0x4 contiki-nrf52dk.a(uart0.o)
+ .bss.rx_buffer
+                0x0000000020002938        0x1 contiki-nrf52dk.a(uart0.o)
+ *fill*         0x0000000020002939        0x3 
+ .bss.txbuf_data
+                0x000000002000293c       0x80 contiki-nrf52dk.a(uart0.o)
+ .bss.txbuf     0x00000000200029bc        0x8 contiki-nrf52dk.a(uart0.o)
+ .bss.wdt_initialized
+                0x00000000200029c4        0x1 contiki-nrf52dk.a(watchdog.o)
+ .bss.wdt_channel_id
+                0x00000000200029c5        0x1 contiki-nrf52dk.a(watchdog.o)
+ *fill*         0x00000000200029c6        0x2 
+ .bss.ctimer_list_list
+                0x00000000200029c8        0x4 contiki-nrf52dk.a(ctimer.o)
+ .bss.initialized
+                0x00000000200029cc        0x1 contiki-nrf52dk.a(ctimer.o)
+ *fill*         0x00000000200029cd        0x3 
+ .bss.timerlist
+                0x00000000200029d0        0x4 contiki-nrf52dk.a(etimer.o)
+ .bss.next_expiration
+                0x00000000200029d4        0x4 contiki-nrf52dk.a(etimer.o)
+ .bss.fevent    0x00000000200029d8        0x1 contiki-nrf52dk.a(process.o)
+ .bss.nevents   0x00000000200029d9        0x1 contiki-nrf52dk.a(process.o)
+ *fill*         0x00000000200029da        0x2 
+ .bss.p.7016    0x00000000200029dc        0x4 contiki-nrf52dk.a(process.o)
+ .bss.poll_requested
+                0x00000000200029e0        0x1 contiki-nrf52dk.a(process.o)
+ *fill*         0x00000000200029e1        0x3 
+ .bss.process_current
+                0x00000000200029e4        0x4 contiki-nrf52dk.a(process.o)
+                0x00000000200029e4                process_current
+ .bss.ev.7013   0x00000000200029e8        0x1 contiki-nrf52dk.a(process.o)
+ *fill*         0x00000000200029e9        0x3 
+ .bss.process_list
+                0x00000000200029ec        0x4 contiki-nrf52dk.a(process.o)
+                0x00000000200029ec                process_list
+ .bss.events    0x00000000200029f0      0x180 contiki-nrf52dk.a(process.o)
+ .bss.data.7014
+                0x0000000020002b70        0x4 contiki-nrf52dk.a(process.o)
+ .bss.lastevent
+                0x0000000020002b74        0x1 contiki-nrf52dk.a(process.o)
+ *fill*         0x0000000020002b75        0x3 
+ .bss.next_rtimer
+                0x0000000020002b78        0x4 contiki-nrf52dk.a(rtimer.o)
+ .bss.leds      0x0000000020002b7c        0x1 contiki-nrf52dk.a(leds.o)
+ *fill*         0x0000000020002b7d        0x3 
+ .bss.rxbuf_data
+                0x0000000020002b80       0x80 contiki-nrf52dk.a(serial-line.o)
+ .bss.rxbuf     0x0000000020002c00        0x8 contiki-nrf52dk.a(serial-line.o)
+ .bss.overflow.6497
+                0x0000000020002c08        0x1 contiki-nrf52dk.a(serial-line.o)
+ *fill*         0x0000000020002c09        0x3 
+ .bss.buf.6503  0x0000000020002c0c       0x80 contiki-nrf52dk.a(serial-line.o)
+ .bss.ptr.6504  0x0000000020002c8c        0x4 contiki-nrf52dk.a(serial-line.o)
+ .bss.num_sensors
+                0x0000000020002c90        0x1 contiki-nrf52dk.a(sensors.o)
+ *fill*         0x0000000020002c91        0x3 
+ .bss.i.6519    0x0000000020002c94        0x4 contiki-nrf52dk.a(sensors.o)
+ .bss.events.6520
+                0x0000000020002c98        0x4 contiki-nrf52dk.a(sensors.o)
+ .bss.btn_state
+                0x0000000020002c9c        0x4 contiki-nrf52dk.a(button-sensor.o)
+ .bss.btn_timer
+                0x0000000020002ca0       0x40 contiki-nrf52dk.a(button-sensor.o)
+ .bss.m_cb      0x0000000020002ce0       0x58 nrf52832.a(nrf_drv_gpiote.)
+ .bss.m_handlers
+                0x0000000020002d38        0x4 nrf52832.a(nrf_drv_rtc.o)
+ .bss.m_cb      0x0000000020002d3c        0x3 nrf52832.a(nrf_drv_rtc.o)
+ *fill*         0x0000000020002d3f        0x1 
+ .bss.m_clock_cb
+                0x0000000020002d40        0xc nrf52832.a(nrf_drv_clock.o)
+ .bss.m_timer_event_handlers
+                0x0000000020002d4c        0x4 nrf52832.a(nrf_drv_timer.o)
+ .bss.mp_contexts
+                0x0000000020002d50        0x4 nrf52832.a(nrf_drv_timer.o)
+ .bss.m_cb      0x0000000020002d54        0x1 nrf52832.a(nrf_drv_timer.o)
+ *fill*         0x0000000020002d55        0x3 
+ .bss.m_alloc_index
+                0x0000000020002d58        0x4 nrf52832.a(nrf_drv_wdt.o)
+ .bss.m_wdt_event_handler
+                0x0000000020002d5c        0x4 nrf52832.a(nrf_drv_wdt.o)
+ .bss.m_state   0x0000000020002d60        0x1 nrf52832.a(nrf_drv_wdt.o)
+ *fill*         0x0000000020002d61        0x3 
+ .bss.m_rng_cb  0x0000000020002d64       0x1c nrf52832.a(nrf_drv_rng.o)
+ .bss.m_cb      0x0000000020002d80       0x18 nrf52832.a(nrf_drv_uart.o)
+ .bss.m_in_critical_region
+                0x0000000020002d98        0x4 nrf52832.a(app_util_platfo)
+ *(COMMON)
+ COMMON         0x0000000020002d9c        0x4 testapp1.co
+                0x0000000020002d9c                c
+ COMMON         0x0000000020002da0       0x70 contiki-nrf52dk.a(energest.o)
+                0x0000000020002da0                energest_total_time
+                0x0000000020002dd0                energest_total_count
+                0x0000000020002dd4                energest_current_mode
+                0x0000000020002de0                energest_current_time
+ COMMON         0x0000000020002e10        0x1 contiki-nrf52dk.a(serial-line.o)
+                0x0000000020002e10                serial_line_event_message
+ COMMON         0x0000000020002e11        0x1 contiki-nrf52dk.a(sensors.o)
+                0x0000000020002e11                sensors_event
+ *fill*         0x0000000020002e12        0x2 
+ COMMON         0x0000000020002e14        0x6 contiki-nrf52dk.a(nrf52dk-sensors)
+                0x0000000020002e14                sensors_flags
+                0x0000000020002e1c                . = ALIGN (0x4)
+ *fill*         0x0000000020002e1a        0x2 
+                0x0000000020002e1c                __bss_end__ = .
+
+.heap           0x0000000020002e20     0x2000
+                0x0000000020002e20                __end__ = .
+                0x0000000020002e20                end = __end__
+ *(.heap*)
+ .heap          0x0000000020002e20     0x2000 nrf52832.a(gcc_startup_nrf)
+                0x0000000020002e20                __HeapBase
+                0x0000000020004e20                __HeapLimit = .
+
+.stack_dummy    0x0000000020002e20     0x2000
+ *(.stack*)
+ .stack         0x0000000020002e20     0x2000 nrf52832.a(gcc_startup_nrf)
+                0x0000000020010000                __StackTop = (ORIGIN (RAM) + LENGTH (RAM))
+                0x000000002000e000                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                0x0000000020010000                PROVIDE (__stack, __StackTop)
+                0x0000000000000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
+OUTPUT(testapp1.elf elf32-littlearm)
+
+.ARM.attributes
+                0x0000000000000000       0x30
+ .ARM.attributes
+                0x0000000000000000       0x22 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crti.o
+ .ARM.attributes
+                0x0000000000000022       0x34 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crtbegin.o
+ .ARM.attributes
+                0x0000000000000056       0x20 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .ARM.attributes
+                0x0000000000000076       0x34 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000000000000aa       0x34 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000000000000de       0x34 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000000000000112       0x34 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000000000000146       0x34 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libnosys.a(_exit.o)
+ .ARM.attributes
+                0x000000000000017a       0x39 testapp1.co
+ .ARM.attributes
+                0x00000000000001b3       0x39 contiki-nrf52dk.a(contiki-main.o)
+ .ARM.attributes
+                0x00000000000001ec       0x39 contiki-nrf52dk.a(dbg-printf.o)
+ .ARM.attributes
+                0x0000000000000225       0x39 contiki-nrf52dk.a(strformat.o)
+ .ARM.attributes
+                0x000000000000025e       0x39 contiki-nrf52dk.a(clock.o)
+ .ARM.attributes
+                0x0000000000000297       0x39 contiki-nrf52dk.a(rtimer-arch.o)
+ .ARM.attributes
+                0x00000000000002d0       0x39 contiki-nrf52dk.a(uart0.o)
+ .ARM.attributes
+                0x0000000000000309       0x39 contiki-nrf52dk.a(watchdog.o)
+ .ARM.attributes
+                0x0000000000000342       0x39 contiki-nrf52dk.a(autostart.o)
+ .ARM.attributes
+                0x000000000000037b       0x39 contiki-nrf52dk.a(ctimer.o)
+ .ARM.attributes
+                0x00000000000003b4       0x39 contiki-nrf52dk.a(energest.o)
+ .ARM.attributes
+                0x00000000000003ed       0x39 contiki-nrf52dk.a(etimer.o)
+ .ARM.attributes
+                0x0000000000000426       0x39 contiki-nrf52dk.a(process.o)
+ .ARM.attributes
+                0x000000000000045f       0x39 contiki-nrf52dk.a(rtimer.o)
+ .ARM.attributes
+                0x0000000000000498       0x39 contiki-nrf52dk.a(timer.o)
+ .ARM.attributes
+                0x00000000000004d1       0x39 contiki-nrf52dk.a(leds.o)
+ .ARM.attributes
+                0x000000000000050a       0x39 contiki-nrf52dk.a(serial-line.o)
+ .ARM.attributes
+                0x0000000000000543       0x39 contiki-nrf52dk.a(list.o)
+ .ARM.attributes
+                0x000000000000057c       0x39 contiki-nrf52dk.a(random.o)
+ .ARM.attributes
+                0x00000000000005b5       0x39 contiki-nrf52dk.a(ringbuf.o)
+ .ARM.attributes
+                0x00000000000005ee       0x39 contiki-nrf52dk.a(sensors.o)
+ .ARM.attributes
+                0x0000000000000627       0x39 contiki-nrf52dk.a(leds-arch.o)
+ .ARM.attributes
+                0x0000000000000660       0x39 contiki-nrf52dk.a(nrf52dk-sensors)
+ .ARM.attributes
+                0x0000000000000699       0x39 contiki-nrf52dk.a(button-sensor.o)
+ .ARM.attributes
+                0x00000000000006d2       0x39 contiki-nrf52dk.a(temperature-sen)
+ .ARM.attributes
+                0x000000000000070b       0x39 contiki-nrf52dk.a(dbg.o)
+ .ARM.attributes
+                0x0000000000000744       0x39 nrf52832.a(nrf_drv_gpiote.)
+ .ARM.attributes
+                0x000000000000077d       0x39 nrf52832.a(nrf_drv_rtc.o)
+ .ARM.attributes
+                0x00000000000007b6       0x39 nrf52832.a(nrf_drv_clock.o)
+ .ARM.attributes
+                0x00000000000007ef       0x39 nrf52832.a(nrf_drv_timer.o)
+ .ARM.attributes
+                0x0000000000000828       0x39 nrf52832.a(nrf_drv_wdt.o)
+ .ARM.attributes
+                0x0000000000000861       0x39 nrf52832.a(nrf_drv_rng.o)
+ .ARM.attributes
+                0x000000000000089a       0x39 nrf52832.a(nrf_drv_uart.o)
+ .ARM.attributes
+                0x00000000000008d3       0x39 nrf52832.a(app_error.o)
+ .ARM.attributes
+                0x000000000000090c       0x39 nrf52832.a(app_fifo.o)
+ .ARM.attributes
+                0x0000000000000945       0x39 nrf52832.a(app_util_platfo)
+ .ARM.attributes
+                0x000000000000097e       0x1c nrf52832.a(gcc_startup_nrf)
+ .ARM.attributes
+                0x000000000000099a       0x39 nrf52832.a(nrf_drv_common.)
+ .ARM.attributes
+                0x00000000000009d3       0x39 nrf52832.a(system_nrf52.o)
+ .ARM.attributes
+                0x0000000000000a0c       0x22 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x0000000000000a2e       0x34 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x0000000000000a62       0x22 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000000000000a84       0x34 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crtend.o
+ .ARM.attributes
+                0x0000000000000ab8       0x22 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/crtn.o
+
+.comment        0x0000000000000000       0x6e
+ .comment       0x0000000000000000       0x6e testapp1.co
+                                         0x6f (size before relaxing)
+ .comment       0x000000000000006e       0x6f contiki-nrf52dk.a(contiki-main.o)
+ .comment       0x000000000000006e       0x6f contiki-nrf52dk.a(dbg-printf.o)
+ .comment       0x000000000000006e       0x6f contiki-nrf52dk.a(strformat.o)
+ .comment       0x000000000000006e       0x6f contiki-nrf52dk.a(clock.o)
+ .comment       0x000000000000006e       0x6f contiki-nrf52dk.a(rtimer-arch.o)
+ .comment       0x000000000000006e       0x6f contiki-nrf52dk.a(uart0.o)
+ .comment       0x000000000000006e       0x6f contiki-nrf52dk.a(watchdog.o)
+ .comment       0x000000000000006e       0x6f contiki-nrf52dk.a(autostart.o)
+ .comment       0x000000000000006e       0x6f contiki-nrf52dk.a(ctimer.o)
+ .comment       0x000000000000006e       0x6f contiki-nrf52dk.a(energest.o)
+ .comment       0x000000000000006e       0x6f contiki-nrf52dk.a(etimer.o)
+ .comment       0x000000000000006e       0x6f contiki-nrf52dk.a(process.o)
+ .comment       0x000000000000006e       0x6f contiki-nrf52dk.a(rtimer.o)
+ .comment       0x000000000000006e       0x6f contiki-nrf52dk.a(timer.o)
+ .comment       0x000000000000006e       0x6f contiki-nrf52dk.a(leds.o)
+ .comment       0x000000000000006e       0x6f contiki-nrf52dk.a(serial-line.o)
+ .comment       0x000000000000006e       0x6f contiki-nrf52dk.a(list.o)
+ .comment       0x000000000000006e       0x6f contiki-nrf52dk.a(random.o)
+ .comment       0x000000000000006e       0x6f contiki-nrf52dk.a(ringbuf.o)
+ .comment       0x000000000000006e       0x6f contiki-nrf52dk.a(sensors.o)
+ .comment       0x000000000000006e       0x6f contiki-nrf52dk.a(leds-arch.o)
+ .comment       0x000000000000006e       0x6f contiki-nrf52dk.a(nrf52dk-sensors)
+ .comment       0x000000000000006e       0x6f contiki-nrf52dk.a(button-sensor.o)
+ .comment       0x000000000000006e       0x6f contiki-nrf52dk.a(temperature-sen)
+ .comment       0x000000000000006e       0x6f contiki-nrf52dk.a(dbg.o)
+ .comment       0x000000000000006e       0x6f nrf52832.a(nrf_drv_gpiote.)
+ .comment       0x000000000000006e       0x6f nrf52832.a(nrf_drv_rtc.o)
+ .comment       0x000000000000006e       0x6f nrf52832.a(nrf_drv_clock.o)
+ .comment       0x000000000000006e       0x6f nrf52832.a(nrf_drv_timer.o)
+ .comment       0x000000000000006e       0x6f nrf52832.a(nrf_drv_wdt.o)
+ .comment       0x000000000000006e       0x6f nrf52832.a(nrf_drv_rng.o)
+ .comment       0x000000000000006e       0x6f nrf52832.a(nrf_drv_uart.o)
+ .comment       0x000000000000006e       0x6f nrf52832.a(app_error.o)
+ .comment       0x000000000000006e       0x6f nrf52832.a(app_fifo.o)
+ .comment       0x000000000000006e       0x6f nrf52832.a(app_util_platfo)
+ .comment       0x000000000000006e       0x6f nrf52832.a(nrf_drv_common.)
+ .comment       0x000000000000006e       0x6f nrf52832.a(system_nrf52.o)
+
+.debug_frame    0x0000000000000000     0x1a50
+ .debug_frame   0x0000000000000000       0x28 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000028       0x2c /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x0000000000000054       0x20 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000000000000074       0x20 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libnosys.a(_exit.o)
+ .debug_frame   0x0000000000000094       0x44 testapp1.co
+ .debug_frame   0x00000000000000d8       0x28 contiki-nrf52dk.a(contiki-main.o)
+ .debug_frame   0x0000000000000100       0x5c contiki-nrf52dk.a(dbg-printf.o)
+ .debug_frame   0x000000000000015c       0x9c contiki-nrf52dk.a(strformat.o)
+ .debug_frame   0x00000000000001f8       0xa8 contiki-nrf52dk.a(clock.o)
+ .debug_frame   0x00000000000002a0       0x5c contiki-nrf52dk.a(rtimer-arch.o)
+ .debug_frame   0x00000000000002fc       0x90 contiki-nrf52dk.a(uart0.o)
+ .debug_frame   0x000000000000038c       0x68 contiki-nrf52dk.a(watchdog.o)
+ .debug_frame   0x00000000000003f4       0x40 contiki-nrf52dk.a(autostart.o)
+ .debug_frame   0x0000000000000434      0x140 contiki-nrf52dk.a(ctimer.o)
+ .debug_frame   0x0000000000000574       0x88 contiki-nrf52dk.a(energest.o)
+ .debug_frame   0x00000000000005fc      0x16c contiki-nrf52dk.a(etimer.o)
+ .debug_frame   0x0000000000000768      0x16c contiki-nrf52dk.a(process.o)
+ .debug_frame   0x00000000000008d4       0x5c contiki-nrf52dk.a(rtimer.o)
+ .debug_frame   0x0000000000000930       0x80 contiki-nrf52dk.a(timer.o)
+ .debug_frame   0x00000000000009b0       0xe0 contiki-nrf52dk.a(leds.o)
+ .debug_frame   0x0000000000000a90       0x68 contiki-nrf52dk.a(serial-line.o)
+ .debug_frame   0x0000000000000af8      0x120 contiki-nrf52dk.a(list.o)
+ .debug_frame   0x0000000000000c18       0x48 contiki-nrf52dk.a(random.o)
+ .debug_frame   0x0000000000000c60       0x7c contiki-nrf52dk.a(ringbuf.o)
+ .debug_frame   0x0000000000000cdc       0xac contiki-nrf52dk.a(sensors.o)
+ .debug_frame   0x0000000000000d88       0x4c contiki-nrf52dk.a(leds-arch.o)
+ .debug_frame   0x0000000000000dd4      0x150 contiki-nrf52dk.a(button-sensor.o)
+ .debug_frame   0x0000000000000f24       0x40 contiki-nrf52dk.a(temperature-sen)
+ .debug_frame   0x0000000000000f64       0x44 contiki-nrf52dk.a(dbg.o)
+ .debug_frame   0x0000000000000fa8      0x200 nrf52832.a(nrf_drv_gpiote.)
+ .debug_frame   0x00000000000011a8      0x180 nrf52832.a(nrf_drv_rtc.o)
+ .debug_frame   0x0000000000001328       0xf8 nrf52832.a(nrf_drv_clock.o)
+ .debug_frame   0x0000000000001420      0x1cc nrf52832.a(nrf_drv_timer.o)
+ .debug_frame   0x00000000000015ec       0x8c nrf52832.a(nrf_drv_wdt.o)
+ .debug_frame   0x0000000000001678       0xa0 nrf52832.a(nrf_drv_rng.o)
+ .debug_frame   0x0000000000001718      0x154 nrf52832.a(nrf_drv_uart.o)
+ .debug_frame   0x000000000000186c       0x20 nrf52832.a(app_error.o)
+ .debug_frame   0x000000000000188c       0xd8 nrf52832.a(app_fifo.o)
+ .debug_frame   0x0000000000001964       0x30 nrf52832.a(app_util_platfo)
+ .debug_frame   0x0000000000001994       0x2c nrf52832.a(nrf_drv_common.)
+ .debug_frame   0x00000000000019c0       0x30 nrf52832.a(system_nrf52.o)
+ .debug_frame   0x00000000000019f0       0x2c /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x0000000000001a1c       0x34 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/fpu/libgcc.a(_udivmoddi4.o)
+
+.debug_info     0x0000000000000000    0x12c64
+ .debug_info    0x0000000000000000      0x493 testapp1.co
+ .debug_info    0x0000000000000493      0x4ad contiki-nrf52dk.a(contiki-main.o)
+ .debug_info    0x0000000000000940      0x229 contiki-nrf52dk.a(dbg-printf.o)
+ .debug_info    0x0000000000000b69      0x9fd contiki-nrf52dk.a(strformat.o)
+ .debug_info    0x0000000000001566      0x86b contiki-nrf52dk.a(clock.o)
+ .debug_info    0x0000000000001dd1      0x691 contiki-nrf52dk.a(rtimer-arch.o)
+ .debug_info    0x0000000000002462      0x7b9 contiki-nrf52dk.a(uart0.o)
+ .debug_info    0x0000000000002c1b      0x576 contiki-nrf52dk.a(watchdog.o)
+ .debug_info    0x0000000000003191      0x20b contiki-nrf52dk.a(autostart.o)
+ .debug_info    0x000000000000339c      0x76f contiki-nrf52dk.a(ctimer.o)
+ .debug_info    0x0000000000003b0b      0x2c2 contiki-nrf52dk.a(energest.o)
+ .debug_info    0x0000000000003dcd      0x6fd contiki-nrf52dk.a(etimer.o)
+ .debug_info    0x00000000000044ca      0x7db contiki-nrf52dk.a(process.o)
+ .debug_info    0x0000000000004ca5      0x297 contiki-nrf52dk.a(rtimer.o)
+ .debug_info    0x0000000000004f3c      0x1e8 contiki-nrf52dk.a(timer.o)
+ .debug_info    0x0000000000005124      0x3eb contiki-nrf52dk.a(leds.o)
+ .debug_info    0x000000000000550f      0x4ad contiki-nrf52dk.a(serial-line.o)
+ .debug_info    0x00000000000059bc      0x42a contiki-nrf52dk.a(list.o)
+ .debug_info    0x0000000000005de6      0x218 contiki-nrf52dk.a(random.o)
+ .debug_info    0x0000000000005ffe      0x1ea contiki-nrf52dk.a(ringbuf.o)
+ .debug_info    0x00000000000061e8      0x4e1 contiki-nrf52dk.a(sensors.o)
+ .debug_info    0x00000000000066c9      0x3f4 contiki-nrf52dk.a(leds-arch.o)
+ .debug_info    0x0000000000006abd      0x1dd contiki-nrf52dk.a(nrf52dk-sensors)
+ .debug_info    0x0000000000006c9a      0xbf9 contiki-nrf52dk.a(button-sensor.o)
+ .debug_info    0x0000000000007893      0x340 contiki-nrf52dk.a(temperature-sen)
+ .debug_info    0x0000000000007bd3      0x133 contiki-nrf52dk.a(dbg.o)
+ .debug_info    0x0000000000007d06     0x1cf5 nrf52832.a(nrf_drv_gpiote.)
+ .debug_info    0x00000000000099fb     0x13bd nrf52832.a(nrf_drv_rtc.o)
+ .debug_info    0x000000000000adb8      0xa38 nrf52832.a(nrf_drv_clock.o)
+ .debug_info    0x000000000000b7f0     0x15b6 nrf52832.a(nrf_drv_timer.o)
+ .debug_info    0x000000000000cda6      0x81d nrf52832.a(nrf_drv_wdt.o)
+ .debug_info    0x000000000000d5c3      0xc34 nrf52832.a(nrf_drv_rng.o)
+ .debug_info    0x000000000000e1f7     0x340c nrf52832.a(nrf_drv_uart.o)
+ .debug_info    0x0000000000011603      0x2e4 nrf52832.a(app_error.o)
+ .debug_info    0x00000000000118e7      0x49c nrf52832.a(app_fifo.o)
+ .debug_info    0x0000000000011d83      0x119 nrf52832.a(app_util_platfo)
+ .debug_info    0x0000000000011e9c      0x59f nrf52832.a(nrf_drv_common.)
+ .debug_info    0x000000000001243b      0x829 nrf52832.a(system_nrf52.o)
+
+.debug_abbrev   0x0000000000000000     0x4db9
+ .debug_abbrev  0x0000000000000000      0x1c1 testapp1.co
+ .debug_abbrev  0x00000000000001c1      0x1d3 contiki-nrf52dk.a(contiki-main.o)
+ .debug_abbrev  0x0000000000000394      0x151 contiki-nrf52dk.a(dbg-printf.o)
+ .debug_abbrev  0x00000000000004e5      0x2ad contiki-nrf52dk.a(strformat.o)
+ .debug_abbrev  0x0000000000000792      0x2ef contiki-nrf52dk.a(clock.o)
+ .debug_abbrev  0x0000000000000a81      0x20b contiki-nrf52dk.a(rtimer-arch.o)
+ .debug_abbrev  0x0000000000000c8c      0x225 contiki-nrf52dk.a(uart0.o)
+ .debug_abbrev  0x0000000000000eb1      0x1ed contiki-nrf52dk.a(watchdog.o)
+ .debug_abbrev  0x000000000000109e      0x12e contiki-nrf52dk.a(autostart.o)
+ .debug_abbrev  0x00000000000011cc      0x22f contiki-nrf52dk.a(ctimer.o)
+ .debug_abbrev  0x00000000000013fb      0x13f contiki-nrf52dk.a(energest.o)
+ .debug_abbrev  0x000000000000153a      0x2d7 contiki-nrf52dk.a(etimer.o)
+ .debug_abbrev  0x0000000000001811      0x39f contiki-nrf52dk.a(process.o)
+ .debug_abbrev  0x0000000000001bb0      0x196 contiki-nrf52dk.a(rtimer.o)
+ .debug_abbrev  0x0000000000001d46      0x104 contiki-nrf52dk.a(timer.o)
+ .debug_abbrev  0x0000000000001e4a      0x1c1 contiki-nrf52dk.a(leds.o)
+ .debug_abbrev  0x000000000000200b      0x237 contiki-nrf52dk.a(serial-line.o)
+ .debug_abbrev  0x0000000000002242      0x1fd contiki-nrf52dk.a(list.o)
+ .debug_abbrev  0x000000000000243f      0x110 contiki-nrf52dk.a(random.o)
+ .debug_abbrev  0x000000000000254f       0xf7 contiki-nrf52dk.a(ringbuf.o)
+ .debug_abbrev  0x0000000000002646      0x2bf contiki-nrf52dk.a(sensors.o)
+ .debug_abbrev  0x0000000000002905      0x18c contiki-nrf52dk.a(leds-arch.o)
+ .debug_abbrev  0x0000000000002a91       0xde contiki-nrf52dk.a(nrf52dk-sensors)
+ .debug_abbrev  0x0000000000002b6f      0x295 contiki-nrf52dk.a(button-sensor.o)
+ .debug_abbrev  0x0000000000002e04      0x16b contiki-nrf52dk.a(temperature-sen)
+ .debug_abbrev  0x0000000000002f6f       0xcc contiki-nrf52dk.a(dbg.o)
+ .debug_abbrev  0x000000000000303b      0x47d nrf52832.a(nrf_drv_gpiote.)
+ .debug_abbrev  0x00000000000034b8      0x36c nrf52832.a(nrf_drv_rtc.o)
+ .debug_abbrev  0x0000000000003824      0x2f2 nrf52832.a(nrf_drv_clock.o)
+ .debug_abbrev  0x0000000000003b16      0x3c3 nrf52832.a(nrf_drv_timer.o)
+ .debug_abbrev  0x0000000000003ed9      0x25e nrf52832.a(nrf_drv_wdt.o)
+ .debug_abbrev  0x0000000000004137      0x2b3 nrf52832.a(nrf_drv_rng.o)
+ .debug_abbrev  0x00000000000043ea      0x3ae nrf52832.a(nrf_drv_uart.o)
+ .debug_abbrev  0x0000000000004798      0x11e nrf52832.a(app_error.o)
+ .debug_abbrev  0x00000000000048b6      0x15d nrf52832.a(app_fifo.o)
+ .debug_abbrev  0x0000000000004a13       0x94 nrf52832.a(app_util_platfo)
+ .debug_abbrev  0x0000000000004aa7      0x17b nrf52832.a(nrf_drv_common.)
+ .debug_abbrev  0x0000000000004c22      0x197 nrf52832.a(system_nrf52.o)
+
+.debug_loc      0x0000000000000000     0x91b0
+ .debug_loc     0x0000000000000000      0x234 testapp1.co
+ .debug_loc     0x0000000000000234       0x13 contiki-nrf52dk.a(contiki-main.o)
+ .debug_loc     0x0000000000000247       0x87 contiki-nrf52dk.a(dbg-printf.o)
+ .debug_loc     0x00000000000002ce     0x126d contiki-nrf52dk.a(strformat.o)
+ .debug_loc     0x000000000000153b       0x9c contiki-nrf52dk.a(clock.o)
+ .debug_loc     0x00000000000015d7       0x81 contiki-nrf52dk.a(rtimer-arch.o)
+ .debug_loc     0x0000000000001658       0xd3 contiki-nrf52dk.a(uart0.o)
+ .debug_loc     0x000000000000172b       0x5a contiki-nrf52dk.a(watchdog.o)
+ .debug_loc     0x0000000000001785       0x80 contiki-nrf52dk.a(autostart.o)
+ .debug_loc     0x0000000000001805      0x4d2 contiki-nrf52dk.a(ctimer.o)
+ .debug_loc     0x0000000000001cd7      0x13c contiki-nrf52dk.a(energest.o)
+ .debug_loc     0x0000000000001e13      0x4f8 contiki-nrf52dk.a(etimer.o)
+ .debug_loc     0x000000000000230b      0x5ec contiki-nrf52dk.a(process.o)
+ .debug_loc     0x00000000000028f7      0x113 contiki-nrf52dk.a(rtimer.o)
+ .debug_loc     0x0000000000002a0a       0xb7 contiki-nrf52dk.a(timer.o)
+ .debug_loc     0x0000000000002ac1      0x139 contiki-nrf52dk.a(leds.o)
+ .debug_loc     0x0000000000002bfa      0x202 contiki-nrf52dk.a(serial-line.o)
+ .debug_loc     0x0000000000002dfc      0x4cf contiki-nrf52dk.a(list.o)
+ .debug_loc     0x00000000000032cb       0x47 contiki-nrf52dk.a(random.o)
+ .debug_loc     0x0000000000003312       0xce contiki-nrf52dk.a(ringbuf.o)
+ .debug_loc     0x00000000000033e0      0x31b contiki-nrf52dk.a(sensors.o)
+ .debug_loc     0x00000000000036fb       0xf2 contiki-nrf52dk.a(leds-arch.o)
+ .debug_loc     0x00000000000037ed      0x885 contiki-nrf52dk.a(button-sensor.o)
+ .debug_loc     0x0000000000004072       0x63 contiki-nrf52dk.a(temperature-sen)
+ .debug_loc     0x00000000000040d5       0xde contiki-nrf52dk.a(dbg.o)
+ .debug_loc     0x00000000000041b3     0x11e1 nrf52832.a(nrf_drv_gpiote.)
+ .debug_loc     0x0000000000005394      0xcd6 nrf52832.a(nrf_drv_rtc.o)
+ .debug_loc     0x000000000000606a      0x11f nrf52832.a(nrf_drv_clock.o)
+ .debug_loc     0x0000000000006189      0x9cb nrf52832.a(nrf_drv_timer.o)
+ .debug_loc     0x0000000000006b54      0x22c nrf52832.a(nrf_drv_wdt.o)
+ .debug_loc     0x0000000000006d80      0x3c7 nrf52832.a(nrf_drv_rng.o)
+ .debug_loc     0x0000000000007147     0x1b0f nrf52832.a(nrf_drv_uart.o)
+ .debug_loc     0x0000000000008c56       0x42 nrf52832.a(app_error.o)
+ .debug_loc     0x0000000000008c98      0x442 nrf52832.a(app_fifo.o)
+ .debug_loc     0x00000000000090da       0xd6 nrf52832.a(nrf_drv_common.)
+
+.debug_aranges  0x0000000000000000      0xaf0
+ .debug_aranges
+                0x0000000000000000       0x28 testapp1.co
+ .debug_aranges
+                0x0000000000000028       0x20 contiki-nrf52dk.a(contiki-main.o)
+ .debug_aranges
+                0x0000000000000048       0x28 contiki-nrf52dk.a(dbg-printf.o)
+ .debug_aranges
+                0x0000000000000070       0x30 contiki-nrf52dk.a(strformat.o)
+ .debug_aranges
+                0x00000000000000a0       0x58 contiki-nrf52dk.a(clock.o)
+ .debug_aranges
+                0x00000000000000f8       0x38 contiki-nrf52dk.a(rtimer-arch.o)
+ .debug_aranges
+                0x0000000000000130       0x38 contiki-nrf52dk.a(uart0.o)
+ .debug_aranges
+                0x0000000000000168       0x40 contiki-nrf52dk.a(watchdog.o)
+ .debug_aranges
+                0x00000000000001a8       0x28 contiki-nrf52dk.a(autostart.o)
+ .debug_aranges
+                0x00000000000001d0       0x58 contiki-nrf52dk.a(ctimer.o)
+ .debug_aranges
+                0x0000000000000228       0x40 contiki-nrf52dk.a(energest.o)
+ .debug_aranges
+                0x0000000000000268       0x90 contiki-nrf52dk.a(etimer.o)
+ .debug_aranges
+                0x00000000000002f8       0x80 contiki-nrf52dk.a(process.o)
+ .debug_aranges
+                0x0000000000000378       0x30 contiki-nrf52dk.a(rtimer.o)
+ .debug_aranges
+                0x00000000000003a8       0x40 contiki-nrf52dk.a(timer.o)
+ .debug_aranges
+                0x00000000000003e8       0x58 contiki-nrf52dk.a(leds.o)
+ .debug_aranges
+                0x0000000000000440       0x30 contiki-nrf52dk.a(serial-line.o)
+ .debug_aranges
+                0x0000000000000470       0x78 contiki-nrf52dk.a(list.o)
+ .debug_aranges
+                0x00000000000004e8       0x28 contiki-nrf52dk.a(random.o)
+ .debug_aranges
+                0x0000000000000510       0x40 contiki-nrf52dk.a(ringbuf.o)
+ .debug_aranges
+                0x0000000000000550       0x40 contiki-nrf52dk.a(sensors.o)
+ .debug_aranges
+                0x0000000000000590       0x30 contiki-nrf52dk.a(leds-arch.o)
+ .debug_aranges
+                0x00000000000005c0       0x18 contiki-nrf52dk.a(nrf52dk-sensors)
+ .debug_aranges
+                0x00000000000005d8       0x88 contiki-nrf52dk.a(button-sensor.o)
+ .debug_aranges
+                0x0000000000000660       0x30 contiki-nrf52dk.a(temperature-sen)
+ .debug_aranges
+                0x0000000000000690       0x28 contiki-nrf52dk.a(dbg.o)
+ .debug_aranges
+                0x00000000000006b8       0xb8 nrf52832.a(nrf_drv_gpiote.)
+ .debug_aranges
+                0x0000000000000770       0x78 nrf52832.a(nrf_drv_rtc.o)
+ .debug_aranges
+                0x00000000000007e8       0x78 nrf52832.a(nrf_drv_clock.o)
+ .debug_aranges
+                0x0000000000000860       0xc0 nrf52832.a(nrf_drv_timer.o)
+ .debug_aranges
+                0x0000000000000920       0x48 nrf52832.a(nrf_drv_wdt.o)
+ .debug_aranges
+                0x0000000000000968       0x48 nrf52832.a(nrf_drv_rng.o)
+ .debug_aranges
+                0x00000000000009b0       0x68 nrf52832.a(nrf_drv_uart.o)
+ .debug_aranges
+                0x0000000000000a18       0x20 nrf52832.a(app_error.o)
+ .debug_aranges
+                0x0000000000000a38       0x48 nrf52832.a(app_fifo.o)
+ .debug_aranges
+                0x0000000000000a80       0x28 nrf52832.a(app_util_platfo)
+ .debug_aranges
+                0x0000000000000aa8       0x20 nrf52832.a(nrf_drv_common.)
+ .debug_aranges
+                0x0000000000000ac8       0x28 nrf52832.a(system_nrf52.o)
+
+.debug_ranges   0x0000000000000000     0x2018
+ .debug_ranges  0x0000000000000000       0x48 testapp1.co
+ .debug_ranges  0x0000000000000048       0x28 contiki-nrf52dk.a(contiki-main.o)
+ .debug_ranges  0x0000000000000070       0x18 contiki-nrf52dk.a(dbg-printf.o)
+ .debug_ranges  0x0000000000000088      0x160 contiki-nrf52dk.a(strformat.o)
+ .debug_ranges  0x00000000000001e8       0x90 contiki-nrf52dk.a(clock.o)
+ .debug_ranges  0x0000000000000278       0x28 contiki-nrf52dk.a(rtimer-arch.o)
+ .debug_ranges  0x00000000000002a0       0x28 contiki-nrf52dk.a(uart0.o)
+ .debug_ranges  0x00000000000002c8       0x48 contiki-nrf52dk.a(watchdog.o)
+ .debug_ranges  0x0000000000000310       0x18 contiki-nrf52dk.a(autostart.o)
+ .debug_ranges  0x0000000000000328       0x90 contiki-nrf52dk.a(ctimer.o)
+ .debug_ranges  0x00000000000003b8       0x30 contiki-nrf52dk.a(energest.o)
+ .debug_ranges  0x00000000000003e8       0xc8 contiki-nrf52dk.a(etimer.o)
+ .debug_ranges  0x00000000000004b0      0x138 contiki-nrf52dk.a(process.o)
+ .debug_ranges  0x00000000000005e8       0x20 contiki-nrf52dk.a(rtimer.o)
+ .debug_ranges  0x0000000000000608       0x30 contiki-nrf52dk.a(timer.o)
+ .debug_ranges  0x0000000000000638       0x60 contiki-nrf52dk.a(leds.o)
+ .debug_ranges  0x0000000000000698       0x50 contiki-nrf52dk.a(serial-line.o)
+ .debug_ranges  0x00000000000006e8       0xf0 contiki-nrf52dk.a(list.o)
+ .debug_ranges  0x00000000000007d8       0x30 contiki-nrf52dk.a(random.o)
+ .debug_ranges  0x0000000000000808       0x30 contiki-nrf52dk.a(ringbuf.o)
+ .debug_ranges  0x0000000000000838       0x78 contiki-nrf52dk.a(sensors.o)
+ .debug_ranges  0x00000000000008b0       0x40 contiki-nrf52dk.a(leds-arch.o)
+ .debug_ranges  0x00000000000008f0       0xd8 contiki-nrf52dk.a(button-sensor.o)
+ .debug_ranges  0x00000000000009c8       0x20 contiki-nrf52dk.a(temperature-sen)
+ .debug_ranges  0x00000000000009e8       0x18 contiki-nrf52dk.a(dbg.o)
+ .debug_ranges  0x0000000000000a00      0x4b8 nrf52832.a(nrf_drv_gpiote.)
+ .debug_ranges  0x0000000000000eb8      0x228 nrf52832.a(nrf_drv_rtc.o)
+ .debug_ranges  0x00000000000010e0      0x100 nrf52832.a(nrf_drv_clock.o)
+ .debug_ranges  0x00000000000011e0      0x1b0 nrf52832.a(nrf_drv_timer.o)
+ .debug_ranges  0x0000000000001390       0xd8 nrf52832.a(nrf_drv_wdt.o)
+ .debug_ranges  0x0000000000001468      0x1a0 nrf52832.a(nrf_drv_rng.o)
+ .debug_ranges  0x0000000000001608      0x860 nrf52832.a(nrf_drv_uart.o)
+ .debug_ranges  0x0000000000001e68       0x10 nrf52832.a(app_error.o)
+ .debug_ranges  0x0000000000001e78       0xe0 nrf52832.a(app_fifo.o)
+ .debug_ranges  0x0000000000001f58       0x18 nrf52832.a(app_util_platfo)
+ .debug_ranges  0x0000000000001f70       0x30 nrf52832.a(nrf_drv_common.)
+ .debug_ranges  0x0000000000001fa0       0x78 nrf52832.a(system_nrf52.o)
+
+.debug_line     0x0000000000000000     0x7161
+ .debug_line    0x0000000000000000      0x1df testapp1.co
+ .debug_line    0x00000000000001df      0x31c contiki-nrf52dk.a(contiki-main.o)
+ .debug_line    0x00000000000004fb      0x1dc contiki-nrf52dk.a(dbg-printf.o)
+ .debug_line    0x00000000000006d7      0x353 contiki-nrf52dk.a(strformat.o)
+ .debug_line    0x0000000000000a2a      0x3cf contiki-nrf52dk.a(clock.o)
+ .debug_line    0x0000000000000df9      0x2fa contiki-nrf52dk.a(rtimer-arch.o)
+ .debug_line    0x00000000000010f3      0x333 contiki-nrf52dk.a(uart0.o)
+ .debug_line    0x0000000000001426      0x2d6 contiki-nrf52dk.a(watchdog.o)
+ .debug_line    0x00000000000016fc      0x15b contiki-nrf52dk.a(autostart.o)
+ .debug_line    0x0000000000001857      0x2a2 contiki-nrf52dk.a(ctimer.o)
+ .debug_line    0x0000000000001af9      0x1e6 contiki-nrf52dk.a(energest.o)
+ .debug_line    0x0000000000001cdf      0x30c contiki-nrf52dk.a(etimer.o)
+ .debug_line    0x0000000000001feb      0x307 contiki-nrf52dk.a(process.o)
+ .debug_line    0x00000000000022f2      0x18a contiki-nrf52dk.a(rtimer.o)
+ .debug_line    0x000000000000247c      0x19b contiki-nrf52dk.a(timer.o)
+ .debug_line    0x0000000000002617      0x253 contiki-nrf52dk.a(leds.o)
+ .debug_line    0x000000000000286a      0x1d4 contiki-nrf52dk.a(serial-line.o)
+ .debug_line    0x0000000000002a3e      0x1cb contiki-nrf52dk.a(list.o)
+ .debug_line    0x0000000000002c09      0x1f7 contiki-nrf52dk.a(random.o)
+ .debug_line    0x0000000000002e00      0x183 contiki-nrf52dk.a(ringbuf.o)
+ .debug_line    0x0000000000002f83      0x22f contiki-nrf52dk.a(sensors.o)
+ .debug_line    0x00000000000031b2      0x209 contiki-nrf52dk.a(leds-arch.o)
+ .debug_line    0x00000000000033bb      0x187 contiki-nrf52dk.a(nrf52dk-sensors)
+ .debug_line    0x0000000000003542      0x3a4 contiki-nrf52dk.a(button-sensor.o)
+ .debug_line    0x00000000000038e6      0x224 contiki-nrf52dk.a(temperature-sen)
+ .debug_line    0x0000000000003b0a      0x150 contiki-nrf52dk.a(dbg.o)
+ .debug_line    0x0000000000003c5a      0x81f nrf52832.a(nrf_drv_gpiote.)
+ .debug_line    0x0000000000004479      0x5f4 nrf52832.a(nrf_drv_rtc.o)
+ .debug_line    0x0000000000004a6d      0x415 nrf52832.a(nrf_drv_clock.o)
+ .debug_line    0x0000000000004e82      0x5d7 nrf52832.a(nrf_drv_timer.o)
+ .debug_line    0x0000000000005459      0x3e3 nrf52832.a(nrf_drv_wdt.o)
+ .debug_line    0x000000000000583c      0x484 nrf52832.a(nrf_drv_rng.o)
+ .debug_line    0x0000000000005cc0      0xbba nrf52832.a(nrf_drv_uart.o)
+ .debug_line    0x000000000000687a      0x15a nrf52832.a(app_error.o)
+ .debug_line    0x00000000000069d4      0x24c nrf52832.a(app_fifo.o)
+ .debug_line    0x0000000000006c20      0x171 nrf52832.a(app_util_platfo)
+ .debug_line    0x0000000000006d91      0x1ab nrf52832.a(nrf_drv_common.)
+ .debug_line    0x0000000000006f3c      0x225 nrf52832.a(system_nrf52.o)
+
+.debug_str      0x0000000000000000     0x59ae
+ .debug_str     0x0000000000000000      0x3d1 testapp1.co
+                                        0x46f (size before relaxing)
+ .debug_str     0x00000000000003d1      0x1d2 contiki-nrf52dk.a(contiki-main.o)
+                                        0x54a (size before relaxing)
+ .debug_str     0x00000000000005a3       0xb9 contiki-nrf52dk.a(dbg-printf.o)
+                                        0x2bf (size before relaxing)
+ .debug_str     0x000000000000065c      0x122 contiki-nrf52dk.a(strformat.o)
+                                        0x33f (size before relaxing)
+ .debug_str     0x000000000000077e      0x5bb contiki-nrf52dk.a(clock.o)
+                                        0x92a (size before relaxing)
+ .debug_str     0x0000000000000d39      0x205 contiki-nrf52dk.a(rtimer-arch.o)
+                                        0x8be (size before relaxing)
+ .debug_str     0x0000000000000f3e      0x4c4 contiki-nrf52dk.a(uart0.o)
+                                        0x8d4 (size before relaxing)
+ .debug_str     0x0000000000001402      0x1d4 contiki-nrf52dk.a(watchdog.o)
+                                        0x46f (size before relaxing)
+ .debug_str     0x00000000000015d6       0x37 contiki-nrf52dk.a(autostart.o)
+                                        0x28d (size before relaxing)
+ .debug_str     0x000000000000160d      0x11b contiki-nrf52dk.a(ctimer.o)
+                                        0x527 (size before relaxing)
+ .debug_str     0x0000000000001728       0x8d contiki-nrf52dk.a(energest.o)
+                                        0x42e (size before relaxing)
+ .debug_str     0x00000000000017b5      0x107 contiki-nrf52dk.a(etimer.o)
+                                        0x451 (size before relaxing)
+ .debug_str     0x00000000000018bc      0x108 contiki-nrf52dk.a(process.o)
+                                        0x3a8 (size before relaxing)
+ .debug_str     0x00000000000019c4       0x96 contiki-nrf52dk.a(rtimer.o)
+                                        0x415 (size before relaxing)
+ .debug_str     0x0000000000001a5a       0x27 contiki-nrf52dk.a(timer.o)
+                                        0x27b (size before relaxing)
+ .debug_str     0x0000000000001a81       0x93 contiki-nrf52dk.a(leds.o)
+                                        0x44a (size before relaxing)
+ .debug_str     0x0000000000001b14       0x8b contiki-nrf52dk.a(serial-line.o)
+                                        0x4c3 (size before relaxing)
+ .debug_str     0x0000000000001b9f       0x84 contiki-nrf52dk.a(list.o)
+                                        0x1f3 (size before relaxing)
+ .debug_str     0x0000000000001c23       0x6f contiki-nrf52dk.a(random.o)
+                                        0x2c8 (size before relaxing)
+ .debug_str     0x0000000000001c92       0x2e contiki-nrf52dk.a(ringbuf.o)
+                                        0x279 (size before relaxing)
+ .debug_str     0x0000000000001cc0       0xce contiki-nrf52dk.a(sensors.o)
+                                        0x4aa (size before relaxing)
+ .debug_str     0x0000000000001d8e      0x23e contiki-nrf52dk.a(leds-arch.o)
+                                        0x4cb (size before relaxing)
+ .debug_str     0x0000000000001fcc       0x48 contiki-nrf52dk.a(nrf52dk-sensors)
+                                        0x391 (size before relaxing)
+ .debug_str     0x0000000000002014      0x23d contiki-nrf52dk.a(button-sensor.o)
+                                        0x654 (size before relaxing)
+ .debug_str     0x0000000000002251       0x6e contiki-nrf52dk.a(temperature-sen)
+                                        0x40f (size before relaxing)
+ .debug_str     0x00000000000022bf       0x30 contiki-nrf52dk.a(dbg.o)
+                                        0x228 (size before relaxing)
+ .debug_str     0x00000000000022ef      0x8d9 nrf52832.a(nrf_drv_gpiote.)
+                                       0x11fd (size before relaxing)
+ .debug_str     0x0000000000002bc8      0x49d nrf52832.a(nrf_drv_rtc.o)
+                                        0xc47 (size before relaxing)
+ .debug_str     0x0000000000003065      0x7f6 nrf52832.a(nrf_drv_clock.o)
+                                        0xa96 (size before relaxing)
+ .debug_str     0x000000000000385b      0x952 nrf52832.a(nrf_drv_timer.o)
+                                       0x11a4 (size before relaxing)
+ .debug_str     0x00000000000041ad      0x308 nrf52832.a(nrf_drv_wdt.o)
+                                        0x9dc (size before relaxing)
+ .debug_str     0x00000000000044b5      0x342 nrf52832.a(nrf_drv_rng.o)
+                                        0x9f3 (size before relaxing)
+ .debug_str     0x00000000000047f7      0xdd8 nrf52832.a(nrf_drv_uart.o)
+                                       0x1ad8 (size before relaxing)
+ .debug_str     0x00000000000055cf       0x71 nrf52832.a(app_error.o)
+                                        0x2c3 (size before relaxing)
+ .debug_str     0x0000000000005640       0xd5 nrf52832.a(app_fifo.o)
+                                        0x32d (size before relaxing)
+ .debug_str     0x0000000000005715       0x89 nrf52832.a(app_util_platfo)
+                                        0x26d (size before relaxing)
+ .debug_str     0x000000000000579e       0x8f nrf52832.a(nrf_drv_common.)
+                                        0x5c9 (size before relaxing)
+ .debug_str     0x000000000000582d      0x181 nrf52832.a(system_nrf52.o)
+                                        0x529 (size before relaxing)

@@ -1,0 +1,12 @@
+CONTIKI_PROJECT = ble
+
+NRF52_SDK_ROOT=/home/johan/Downloads/nrf5_iot_sdk_3288530
+
+CONTIKI_WITH_RPL=1
+NRF52_WITHOUT_SOFTDEVICE=0
+CONTIKI_WITH_IPV6 = 1
+
+all: $(CONTIKI_PROJECT) 
+
+CONTIKI = ../..
+include $(CONTIKI)/Makefile.include
