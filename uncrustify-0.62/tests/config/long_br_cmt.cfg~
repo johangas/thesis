@@ -1,0 +1,5 @@
+include "ben.cfg"
+
+mod_add_long_function_closebrace_comment  = 10
+mod_add_long_namespace_closebrace_comment = 10
+indent_namespace = true
