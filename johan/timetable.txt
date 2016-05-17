@@ -54,7 +54,6 @@ fix as many flaws and write down everything
 ----------------Analysis and report writing, w 19 - 22
 
 
-
 Actually worked hours
 Week	Hours
 ---------------
@@ -74,9 +73,9 @@ W13	24
 W14	30
 W15	25
 W16	30
-W17	
-W18
-W19
+W17	23.5
+W18	17
+W19	
 W20
 W21
 W22

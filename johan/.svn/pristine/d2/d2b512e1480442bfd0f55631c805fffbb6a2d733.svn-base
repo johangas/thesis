@@ -88,10 +88,10 @@ The ContikiMAC is a radio duty cycle media access control protocol which uses pr
 Bluetooth Low Energy (or Bluetooth Smart) was introduced as Wibree by Nokia in 2006 \cite{wibree} and merged into the main Bluetooth standard in 2010 when the Bluetooth Core Specification Version 4.0 was adopted. It is defined as a WPAN (wireless personal area network) meaning it is designed to work on short range personal devices such as heart rate monitors, smart watches, insulin dispensers. The current version supports a myriad of application profiles for similar devices by default.
 
 \subsubsection{GATT}
-The Attribute Profile defines rules how data is accessed from a peer device.\cite{blehandbook} Data stored within an attribute server which an attribute client can read and write. Clients send queries to the server and receives response messages which it can use to read/write any attribute on the server.\\
+The Attribute Profile defines rules how data is accessed from a peer device.\cite{blehandbook} Data stored within an attribute server which an attribute client can read and write. Clients send queries to the server and recives response messages which it can use to read/write any attribute on the server.\\
 The protocol defines six types of messages: requests from client to server, responses from server for a request from client, commands without response from the client, notifications from the server to the client without response, indications from server to client and responses from client to indications from server.\\
 Each attribute has a unique handle id to separate attributes, a type to identify the data and a value for the data. Attributes can require authentication as defined by the protocol. These requirements can not be discovered without an error in response to an attempt to access the attribute.\\
-In the layer above the attribute profile lies the Generic Attribute Profile which defines the types of attributes and how they are used. One profile may contain one or many services. Services are divided into primary and secondary services. Primary services can contain secondary services that are used by the primaries. Services consist of one or more characteristics which have properties to the value, a single value and one or more descriptors. In \pageref{fig:gatt} we see the structure of a profile and its constitution.\\
+In the layer above the attribute profile lies the Generic Attribute Profile which defines the types of attributes and how they are used. One profile may contain one or many services. Services are divided into primary and secondary services. Primary services can contain secondary services that are used by the primaries. Services consist of one or morecharacteristics which have properties to the value, a single value and one or more descriptors. In \pageref{fig:gatt} we see the structure of a profile and its constitution.\\
 
 %%%\fig{1}
 
@@ -105,7 +105,7 @@ In the layer above the attribute profile lies the Generic Attribute Profile whic
 The Application layer, above the GATT, defines specifications for the attribute groups defined in GATT.
 
 \subsubsection{GAP}
-In order to maintain the connection to services, the Generic Access Profile defines how the to discover, connect and bond to, devices. The layer also enables privacy by using resolvable private addresses which are constantly changed while advertising in order to avoid being identified. In order to be able to connect to devices that seeks privacy, the GAP specifies how to resolve the private addresses and how to connect.
+In order to maintain the connection to services, the Generic Access Profile defines how the to discover, connect and bond to, devices. The layer also enables privacy by using resolvable private adresses which are constantly changed while advertising in order to avoid being identified. In order to be able to connect to devices that seeks privacy, the GAP specifies how to resolve the private addresses and how to connect.
 
 \subsubsection{IPSP}
 Internet Protocol Support Profile enables BLE to send IPv6 packets over BLE transport and is compatible with Bluetooth core specification v4.1 and above.\cite{bleipsp} 
@@ -116,29 +116,25 @@ IPv6 over low power personal area networks utilises encapsulation and header com
 
 \subsubsection{nRF52832}
 The nRF52832 SoC from Nordic Semiconductors provides hardware features such as a 2.4GHz radio, supporting Bluetooth Smart, ANT and proprietary RF (i.e Gazel).
-The system features 512 kB flash memory and 64 kB RAM, the 32-bit ARM Cortex-M4F MCU, configurable analogue and digital I/O mapping, GPIO, 3 master/slave SPI, 2 I2C, AES hardware encryption and automatic power management.\cite{nrf52832}\\
+The system features 512 kB flash memory and 64 kB RAM, the 32-bit ARM Cortex-M4F MCU, configurable analog and digital I/O mapping, GPIO, 3 master/slave SPI, 2 I2C, AES hardware encryption and automatic power management.\cite{nrf52832}\\
 The hardware supplied for this thesis is two nRF52 Preview DK boards. This DK supplies all RF features, 4 LEDs, 4 hardware buttons, coin-cell battery holder, micro USB connector for power supply and flashing capabilities, pins for measuring power consumption, port for external programming/debugging,  Arduino Uno Rev. 3 compatible connector for use with 3rd party shields and an NFC antenna.\\
 The software architecture features a separation between the SoC and the application layer called SoftDevice. The SoftDevice can be chosen to supply a set of features and ensures that applications can be coded and debugged independently of the protocol stack, reducing development efforts and bugs and their complexity.\\
-
 \subsection{Nordic Semiconductor Smartphone Apps}
-Nordic Semiconductors supply a series of Android applications designed to test the nRF series both with and without example applications attached.
+Nordic Semiconductors supply a series of Android apps designed to test the nRF series both with and without example applications attached.
 The nRF Master Control Panel shows available BLE connections and supports bonding. It also provides a view of services on the devices, their parameters and descriptors.
 the nRF Toolbox provides a series of applications to test example software provided by Nordic Semiconductors. The applications utilize standard Bluetooth services such as heart rate monitors, blood pressure monitors and proximity sensors.
 
 \section{Introduction}
-In order for the newly released nRF52 development kit to be used with Contiki, a port has been made by Nordic Semiconductors. This port is as of April 2016 still in pull request to the main Contiki tree.
+In order for the newly released nRF52 development kit to be used with Contiki, a port has been made by Nordic Semiconductors. This port is as of april 2016 still in pull request to the main Contiki tree.
 This port needs evaluation to see if it is working correctly and what services and functionalities work as expected and follow performance needs.
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Purpose}
-In order to know if the nRF52 port made by Nordic Semiconductors is efficient and useful, a series of programs will be made to evaluate the port and platform combination.
-
+In order to know if the nrf52 port made by nordic semiconductors is efficient and useful, a series of programs will be made to evaluate the port and platform combination.
 \section{The Contiki port}
 The Contiki port for the nRF52 development kit preview version is made and maintained by Bober Wojciech at Nordic Semiconductors. \cite{port}
 The port includes support for the boards buttons, LEDs, system clock and timers, UART, Watchdog, hardware RNG, RTT I/O, temperature sensor, IPV6 and the slave mode for BLE. The port does not include the BLE master mode which means that communication between two nodes needs to happen through IPv6 traffic through a routing device using the IPSP for BLE. It does not support the IPv4 network stack.\\
 It is designed around the nRF5 IoT SDK which is required to compile all parts. The SDK also supplies the required SoftDevice to handle BLE.
 The port support the two DKs, PCA10040 and PCA10036. For this thesis, the nRF52dk boards utilize, PCA10040.
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Method}
 \subsection{Process}
@@ -155,21 +151,19 @@ Evaluate the application implementations
 
 \subsection{Optimizations}
 Performance optimization will be measured on speed of transmission and memory footprint.
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Application implementation}
 The implementations will consist of two version of a model of a code lock. The nodes will be a certification agent and one or more access points(keypads controlling a door.) Two implementations will be made, one with DLTS and one without.
 Performance testing is done primarily on throughput.\\
 
-Using tinyDTLS \cite{tinydtls} to introduce an option in the erbium engine in contiki, we should be able to see that a secure communication can be used with CoAP.
+
+IPSP over BLE on Android API?
 
 \subsection{CoAP}
 CoAP Constrained Application Protocol is a way to share data over severely memory and processing constrained networks. This is done by reducing the overhead for each packet and also lowering the payload size. One CoAP message should be able to properly fit into a single IP packet, and datagram, and thus avoids packet fragmentation. \cite{coap}
-The implementation uses the Erbium CoAP engine which is the CoAP engine developed by ETH Zurich and SICS for Contiki.
 
 \subsection{DTLS}
-The transport layer security (TLS) originated DTLS (Datagram TLS) protocol allows client/server applications to communicate in a way that is designed to prevent eavesdropping, tampering, or message forgery. \cite{dtls} The protocol assures equivalent security guarantees. DTLS must be run over a reliable transport channel such as TCP. The protocol can thus not be used to secure unreliable datagram traffic.
-For this thesis, the tinyDTLS will be used as it is an open-source implementation 
+The transport layer security (TLS) originated DTLS (Datagram TLS) protocol allows client/server applications to communicate in a way that is designed to prevent eavesdropping, tampering, or message forgery. \cite{dtls} The protocol assures equivalent securiy guarantees. DTLS must be run over a reliable transport channel such as TCP. The protocol can thus not be used to secure unreliable datagram traffic.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results and Discussion}
 \subsection{Optimizations}
@@ -179,17 +173,13 @@ For this thesis, the tinyDTLS will be used as it is an open-source implementatio
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Future work}
-Fully integrating tinyDTLS into the Contiki OS as a complete feature regardless of platform.\\
-Implementing the master role into the port would likely increase the stability and performance of the system since the routing PC is removed.\\
-Tests for the NFC\\
-Low power operation\\
-Compare tinyDTLS to mbedTLS\\
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Summary}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Acknowledgements}
-Thanks to B. Wojciech at Nordic Semiconductor, author of the nRF52dk-pr contiki port, for his support and thanks to everyone at SICS Swedish ICT, especially Shahid Raza and Zhitao He for hosting this thesis project.
+Thanks to Bober, Wojciech at Nordic Semiconductor, author of the nRF52dk-pr contiki port, for his support
 
 \begin{thebibliography}{9}
 
@@ -200,7 +190,7 @@ Thanks to B. Wojciech at Nordic Semiconductor, author of the nRF52dk-pr contiki 
 \url{http://infocenter.nordicsemi.com/pdf/nRF52832_PS_v1.0.pdf}.
 \emph{nRF52832 - Product Specification v1.0}, fetched 2016/03/20
 
-\bibitem{nrf52dk} Nordic Semiconductor,
+\bibitem{nrf52dk} Nordic Semiconductor.
 \emph{nRF52 Preview DK v1.1 product brief}, 2015
 
 \bibitem{wibree} \url{http://company.nokia.com/en/news/press-releases/2006/10/03/nokia-introduces-wibree-technology-as-open-industry-initiative}.
@@ -209,32 +199,24 @@ Thanks to B. Wojciech at Nordic Semiconductor, author of the nRF52dk-pr contiki 
 \bibitem{bluetooth} \url{https://www.bluetooth.com/what-is-bluetooth-technology/bluetooth-technology-basics/low-energy}.
 \emph{Bluetooth Smart by Bluetooth}, fetched on 2016/03/15
 
-\bibitem{blehandbook} R. Heydon,
+\bibitem{blehandbook} R. Heydon.
 \emph{Bluetooth Low Energy the developer's handbook}, 2013
 
 \bibitem{bleipsp} \url{https://www.bluetooth.org/docman/handlers/DownloadDoc.ashx?doc_id=296307}.
 \emph{Internet Protocol Support Profile Bluetooth® Specification}, 2014-Dec-16
 
-\bibitem{RPL} T. Winter, P. Thubert, A. Brandt, J. Hui, R. Kelsey, P. Levis, K. Pister, R. Struik, J. Vasseur, and R. Alexander,
+\bibitem{RPL} T. Winter, P. Thubert, A. Brandt, J. Hui, R. Kelsey, P. Levis, K. Pister, R. Struik, J. Vasseur, and R. Alexander.
 \emph{RPL: IPv6 Routing Protocol for Low-Power and Lossy Networks. RFC 6550}, March 2012
 
-\bibitem{coap} Z. Shelby, K. Hartke, and C. Bormann,
+\bibitem{coap} Z. Shelby, K. Hartke, and C. Bormann.
 \emph{The Constrained Application Protocol (CoAP). RFC 7252 (Proposed Standard)}, June 2014
-
-\bibitem{erbium} M. Kovatsch, S. Duquennoy, A. Dunkels, 
-\emph{A Low-Power CoAP for Contiki}
-2011
 
 \bibitem{dtls} E. Rescorla, RTFM, Inc., N. Modadugu, Google, Inc.
 \emph{Datagram Transport Layer Security Version 1.2. RFC 6347}, January 2012
 
-\bibitem{port} B. Wojciech,
+\bibitem{port} B. Wojciech.
 \url{https://github.com/wbober/contiki/tree/nrf52dk-pr}
 \emph{Contiki for nRF52 Development Kit}, May 2016
-
-\bibitem{tinydtls} 
-\url{https://projects.eclipse.org/projects/iot.tinydtls}
-\emph{tinyDTLS}, May 2016
 
 \end{thebibliography}
 \newpage

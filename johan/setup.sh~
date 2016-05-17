@@ -1,15 +1,38 @@
+#compile and flash
+
+if($WITH_DTLS)
+  cd dtls-authority
+else 
+  cd authority
+
+make authority.flash TARGET=nrf52dk NRF52_JLINK_SN= #TODO
+
+cd ..
+
+if($WITH_DTLS)
+  cd dtls-keypad
+else
+  cd keypad
+
+
+make keypad.flash TARGET=nrf52dk ADDR=2001:db8::225:40ff:fef0:8bf0 NRF52_JLINK_SN= #TODO
+
+cd ..
+
 #setup bluetooth driver
-mount -t debugfs none /sys/kernel/debug
+sudo mount -t debugfs none /sys/kernel/debug
 
-modprobe bluetooth_6lowpan
+sudo modprobe bluetooth_6lowpan
 
-echo 35 > /sys/kernel/debug/bluetooth/6lowpan_psm
+sudo echo 35 > /sys/kernel/debug/bluetooth/6lowpan_psm
 
 #forwarding
-echo 1 > /proc/sys/net/ipv6/conf/all/forwarding
-sysctl -w net.ipv6.conf.all.forwarding=1
+sudo echo 1 > /proc/sys/net/ipv6/conf/all/forwarding
+sudo sysctl -w net.ipv6.conf.all.forwarding=1
 
 #restartd routing daemon
-service radvd restart
+sudo service radvd restart
 
-
+sudo ifconfig bt0 add 2001:db8::1/64
+sudo ifconfig bt1 add 2001:db8::1/64
+sudo ifconfig bt2 add 2001:db8::1/64

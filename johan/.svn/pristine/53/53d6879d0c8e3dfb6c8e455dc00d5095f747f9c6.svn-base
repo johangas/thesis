@@ -37,16 +37,15 @@
 \citation{port}
 \@writefile{toc}{\contentsline {section}{\numberline {2}Introduction}{5}{section.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {3}Purpose}{5}{section.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}The Contiki port}{5}{section.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Method}{5}{section.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Process}{5}{subsection.5.1}}
-\citation{tinydtls}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}The Contiki port}{5}{subsection.3.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Method}{5}{section.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Process}{5}{subsection.4.1}}
 \citation{coap}
 \citation{dtls}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Optimizations}{6}{subsection.5.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Application implementation}{6}{section.6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}CoAP}{6}{subsection.6.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}DTLS}{6}{subsection.6.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Optimizations}{6}{subsection.4.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Application implementation}{6}{section.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}CoAP}{6}{subsection.5.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}DTLS}{6}{subsection.5.2}}
 \bibcite{proto}{1}
 \bibcite{nrf52832}{2}
 \bibcite{nrf52dk}{3}
@@ -54,18 +53,16 @@
 \bibcite{bluetooth}{5}
 \bibcite{blehandbook}{6}
 \bibcite{bleipsp}{7}
-\@writefile{toc}{\contentsline {section}{\numberline {7}Results and Discussion}{7}{section.7}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Optimizations}{7}{subsection.7.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Measurements}{7}{subsection.7.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Analysis}{7}{subsection.7.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.4}Discussion}{7}{subsection.7.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {8}Future work}{7}{section.8}}
-\@writefile{toc}{\contentsline {section}{\numberline {9}Summary}{7}{section.9}}
-\@writefile{toc}{\contentsline {section}{\numberline {10}Acknowledgements}{7}{section.10}}
 \bibcite{RPL}{8}
 \bibcite{coap}{9}
-\bibcite{erbium}{10}
-\bibcite{dtls}{11}
-\bibcite{port}{12}
-\bibcite{tinydtls}{13}
+\bibcite{dtls}{10}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Results and Discussion}{7}{section.6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Optimizations}{7}{subsection.6.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Measurements}{7}{subsection.6.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Analysis}{7}{subsection.6.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}Discussion}{7}{subsection.6.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Future work}{7}{section.7}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Summary}{7}{section.8}}
+\@writefile{toc}{\contentsline {section}{\numberline {9}Acknowledgements}{7}{section.9}}
+\bibcite{port}{11}
 \@writefile{toc}{\contentsline {section}{\numberline {A}Aasdasd}{9}{appendix.A}}

@@ -11,19 +11,19 @@
 \BOOKMARK [2][-]{subsection.1.2}{Nordic Semiconductor Smartphone Apps}{section.1}% 11
 \BOOKMARK [1][-]{section.2}{Introduction}{}% 12
 \BOOKMARK [1][-]{section.3}{Purpose}{}% 13
-\BOOKMARK [1][-]{section.4}{The Contiki port}{}% 14
-\BOOKMARK [1][-]{section.5}{Method}{}% 15
-\BOOKMARK [2][-]{subsection.5.1}{Process}{section.5}% 16
-\BOOKMARK [2][-]{subsection.5.2}{Optimizations}{section.5}% 17
-\BOOKMARK [1][-]{section.6}{Application implementation}{}% 18
-\BOOKMARK [2][-]{subsection.6.1}{CoAP}{section.6}% 19
-\BOOKMARK [2][-]{subsection.6.2}{DTLS}{section.6}% 20
-\BOOKMARK [1][-]{section.7}{Results and Discussion}{}% 21
-\BOOKMARK [2][-]{subsection.7.1}{Optimizations}{section.7}% 22
-\BOOKMARK [2][-]{subsection.7.2}{Measurements}{section.7}% 23
-\BOOKMARK [2][-]{subsection.7.3}{Analysis}{section.7}% 24
-\BOOKMARK [2][-]{subsection.7.4}{Discussion}{section.7}% 25
-\BOOKMARK [1][-]{section.8}{Future work}{}% 26
-\BOOKMARK [1][-]{section.9}{Summary}{}% 27
-\BOOKMARK [1][-]{section.10}{Acknowledgements}{}% 28
+\BOOKMARK [2][-]{subsection.3.1}{The Contiki port}{section.3}% 14
+\BOOKMARK [1][-]{section.4}{Method}{}% 15
+\BOOKMARK [2][-]{subsection.4.1}{Process}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.2}{Optimizations}{section.4}% 17
+\BOOKMARK [1][-]{section.5}{Application implementation}{}% 18
+\BOOKMARK [2][-]{subsection.5.1}{CoAP}{section.5}% 19
+\BOOKMARK [2][-]{subsection.5.2}{DTLS}{section.5}% 20
+\BOOKMARK [1][-]{section.6}{Results and Discussion}{}% 21
+\BOOKMARK [2][-]{subsection.6.1}{Optimizations}{section.6}% 22
+\BOOKMARK [2][-]{subsection.6.2}{Measurements}{section.6}% 23
+\BOOKMARK [2][-]{subsection.6.3}{Analysis}{section.6}% 24
+\BOOKMARK [2][-]{subsection.6.4}{Discussion}{section.6}% 25
+\BOOKMARK [1][-]{section.7}{Future work}{}% 26
+\BOOKMARK [1][-]{section.8}{Summary}{}% 27
+\BOOKMARK [1][-]{section.9}{Acknowledgements}{}% 28
 \BOOKMARK [1][-]{appendix.A}{Aasdasd}{}% 29

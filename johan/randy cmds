@@ -31,3 +31,12 @@ ping6 -I bt0 ff02::1
 #ping 
 ping6 -I bt0 2001:db8::200:f7ff:fed1:ab65
 ping6 -I bt0 2001:db8::225:40ff:fef0:8bf0
+
+
+find . -name "" | xargs grep "" -n
+
+
+nrfjprog --program obj_nrf52dk/*.hex -f nrf52 --sectorerase
+	nrfjprog --reset
+
+
