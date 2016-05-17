@@ -48,7 +48,7 @@ static void res_post_put_handler(void *request, void *response, uint8_t *buffer,
 		
 		if(strcompare(str, payload)){
 			printf("Authorized, opening door\n");
-			leds_set(1+i);
+			leds_set(1);
 			REST.notify_subscribers(&res_door);
 			REST.set_response_status(response, REST.status.CHANGED);
 			return;

@@ -1,0 +1,26 @@
+#include <string.h>
+#include "contiki.h"
+#include "rest-engine.h"
+
+
+static void res_post_put_handler(void *request, void *response, uint8_t *buffer, uint16_t preferred_size, int32_t *offset);
+
+static void res_get_handler(void *request, void *response, uint8_t *buffer, uint16_t preferred_size, int32_t *offset);
+
+static void res_event_handler();
+
+EVENT_RESOURCE(res_door, "title=\"door\"; obs", res_get_handler, res_post_put_handler, res_post_put_handler, NULL, res_event_handler);
+
+
+static void res_post_put_handler(void *request, void *response, uint8_t *buffer, uint16_t preferred_size, int32_t *offset) {
+	//Nothing here
+}
+
+static void res_get_handler(void *request, void *response, uint8_t *buffer, uint16_t preferred_size, int32_t *offset){
+	REST.set_header_content_type(response, REST.type.TEXT_PLAIN);
+	REST.set_response_payload(response, buffer, snprintf((char *)buffer, preferred_size, "%d", 1);
+}
+
+static void res_event_handler() {
+	REST.notify_subscribers(&res_door);
+}

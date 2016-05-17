@@ -54,7 +54,7 @@ void stoptimer(){
 static void response(void *response){
 	//TODO: what is this do
 	const uint8_t *payload = NULL;
-	coap_get_payload(notification, &payload);
+	coap_get_payload(response, &payload);
 	stoptimer();
 	//stop performance counter
 	if(*payload != '0')
@@ -63,7 +63,7 @@ static void response(void *response){
 		leds_set(0);
 	}
 	//print round trip time	
-	printf("Notification from server received: %d Response time was %ld ms.\n", *payload, time);
+	printf("Response: Notification from server received: %d Response time was %ld ms.\n", *payload, time);
 }
 
 static void callback(coap_observee_t *obst, void *notification, coap_notification_flag_t flag){
@@ -73,15 +73,15 @@ static void callback(coap_observee_t *obst, void *notification, coap_notificatio
 		if (notification){
 			const uint8_t *payload = NULL;
 			coap_get_payload(notification, &payload);
-			stoptimer();
+			//stoptimer();
 			//stop performance counter
-			if(*payload != '0')
+			/*if(*payload != '0')
 				leds_set(*payload);
 			else {
 				leds_set(0);
-			}
+			}*/
 			//print round trip time	
-			printf("Notification from server received: %d Response time was %ld ms.\n", *payload, time);
+			printf("Callback: Notification from server received: %d Response time was %ld ms.\n", *payload, time);
 			
 		}
 	}

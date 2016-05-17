@@ -66,6 +66,7 @@ static void res_get_handler(void *request, void *response, uint8_t *buffer, uint
 	//get must be safe so only return value of the door
 	REST.set_header_content_type(response, REST.type.TEXT_PLAIN);
 	REST.set_response_payload(response, buffer, snprintf((char *)buffer, preferred_size, "%d", leds_get()));
+	printf("Get, returned %d\n", leds_get());
 }
 
 static void res_event_handler() {
