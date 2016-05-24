@@ -143,17 +143,14 @@ The port support the two DKs, PCA10040 and PCA10036. For this thesis, the nRF52d
 \section{Method}
 \subsection{Process}
 Half the time was spent on gathering data and on experimenting to learn the platform and relevant technologies. %%Crude
-Now its most of the time.
 
 Tasks
 \begin{itemize}
 \item
 Two applications will be implemented that use BLE to transmit IP packets
-using IPSP. The applications use the Contiki Erbium engine to transmit CoAP packets.
+using IPSP
 \item
 Evaluate the application implementations
-\item
-Suggest improvements to the port and future work on the board. Applications and usability.
 \end{itemize}
 
 \subsection{Optimizations}
@@ -168,14 +165,11 @@ Using tinyDTLS \cite{tinydtls} to introduce an option in the erbium engine in co
 
 \subsection{CoAP}
 CoAP Constrained Application Protocol is a way to share data over severely memory and processing constrained networks. This is done by reducing the overhead for each packet and also lowering the payload size. One CoAP message should be able to properly fit into a single IP packet, and datagram, and thus avoids packet fragmentation. \cite{coap}
-The implementations use the Erbium CoAP engine which is the CoAP engine for Contiki developed by ETH Zurich and SICS.
+The implementation uses the Erbium CoAP engine which is the CoAP engine developed by ETH Zurich and SICS for Contiki.
 
 \subsection{DTLS}
-The transport layer security (TLS) originated DTLS (Datagram TLS) protocol allows client/server applications to communicate in a way that is designed to prevent eavesdropping, tampering, or message forgery. \cite{dtls} The protocol assures equivalent security guarantees. DTLS must be run over a reliable transport channel such as TCP and the protocol can thus not be used to secure unreliable datagram traffic.
-For this thesis, the tinyDTLS will be used as it is an open-source implementation which is reduced in overhead to accommodate the constrained environment of the nRF52 board.\\
-The DTLS process works as follows: first, a handshake period is initiated where the client sends a request to the server, called ClientHello expecting a HelloVerifyRequest prompting the client to send another ClientHello. The server will then send the ServerHello, along with it's certificate. The client replies with its own certificate and the server responds with a ChangeCipherSpec, indicating the negotiated cipher will now take effect.
-The handshake process is protected with RSA and tinyDTLS supports AES-128-CBC for encryption of the sessions and SHA1 for hashing.
-
+The transport layer security (TLS) originated DTLS (Datagram TLS) protocol allows client/server applications to communicate in a way that is designed to prevent eavesdropping, tampering, or message forgery. \cite{dtls} The protocol assures equivalent security guarantees. DTLS must be run over a reliable transport channel such as TCP. The protocol can thus not be used to secure unreliable datagram traffic.
+For this thesis, the tinyDTLS will be used as it is an open-source implementation 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results and Discussion}
 \subsection{Optimizations}
@@ -195,7 +189,7 @@ Compare tinyDTLS to mbedTLS\\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Acknowledgements}
-Thanks to B. Wojciech at Nordic Semiconductor, author of the nRF52dk-pr Contiki port, for his support and thanks to everyone at SICS Swedish ICT, especially Shahid Raza and Zhitao He for hosting this thesis project.
+Thanks to B. Wojciech at Nordic Semiconductor, author of the nRF52dk-pr contiki port, for his support and thanks to everyone at SICS Swedish ICT, especially Shahid Raza and Zhitao He for hosting this thesis project.
 
 \begin{thebibliography}{9}
 

@@ -1,6 +1,6 @@
 #view uart
-sudo picocom -b 38400 -r -l /dev/ttyACM3
-sudo picocom -b 38400 -r -l /dev/ttyACM4
+sudo picocom -b 38400 -r -l /dev/ttyACM3 --imap lfcrlf
+sudo picocom -b 38400 -r -l /dev/ttyACM4 --imap lfcrlf
 
 
 #init BT
