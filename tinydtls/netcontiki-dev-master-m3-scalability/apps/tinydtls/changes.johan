@@ -1,0 +1,9 @@
+commented 
+
+#   warning "IPv4 network addresses will not be included in debug output"
+
+in debug.c
+
+dtls_time: commented clock_init
+
+added #ifdef have_assert_h to all assert calls

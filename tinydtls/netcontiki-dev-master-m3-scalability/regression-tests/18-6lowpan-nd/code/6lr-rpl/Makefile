@@ -1,0 +1,13 @@
+all: 6lr-rpl
+
+APPS += serial-shell
+PROJECT_SOURCEFILES += ../shell-6l.c 
+
+CONTIKI_WITH_IPV6 = 1
+CONTIKI_WITH_RPL = 1
+UIP_CONF_6LR=1
+
+CFLAGS = -DUIP_CONF_ND6_RA_PERIODIC=0 -DTCPIP_CONF_ANNOTATE_TRANSMISSIONS=1
+
+CONTIKI = ../../../..
+include $(CONTIKI)/Makefile.include

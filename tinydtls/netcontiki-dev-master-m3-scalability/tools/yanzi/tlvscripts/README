@@ -1,0 +1,40 @@
+README file for using the python TLV scripts
+--------------------------------------------------
+The following instructions clarify the usage of the python TLV scripts
+contained in this folder. The scripts allow the user to test the TLV-based
+communication to a Yanzi device (running the Yanzi TLV application stack).
+
+The TLV scripts display valid text-base information if the corresponding
+operation (TLV instance) is supported on the Yanzi device, otherwise they
+inform the user that the operation is not supported by the loaded firmware.
+
+============================================================================
+1. "tlvgettemperature.py": Reading the device temperature
+
+The script returns the device temperature in (C)
+Usage:
+  ./tlvgettemperature.py [-v] [Device-IPv6-Address] [Instance number]
+
+Option -v introduces verbosity.
+The instance number forces the script to look for the temperature instance only on the
+specific instance index (not really needed).
+
+2. "tlvgetbutton.py": Reading the status of the user button
+Usage:
+  ./tlvgetbutton [-v] [Device-IPv6-Address] [Instance number]
+
+Options -v, instance number are as for temperature
+The script returns "Button Pressed" or "Button Released", depending on the button status.
+
+3. "tlvgetled.py": Reading the LED status (Orange LED)
+Usage:
+  ./tlvgetled.py [-v] [Device-IPv6-Address] [Instance number]
+
+The script returns "LED ON", or "LED OFF", depending on the LED status.
+
+4. "tlvsetled.py": Setting the Orange LED (on or off)
+Usage:
+  "./tlvsetled.py" [-v] [Device-IPv6-Address] [-l] [ON/OFF] [Instance number]
+
+The script confirms the LED setting (ON, or OFF) or indicated invalid argument, otherwise.
+If the -l option is not given, or if it is empty, the LED defaults to OFF.

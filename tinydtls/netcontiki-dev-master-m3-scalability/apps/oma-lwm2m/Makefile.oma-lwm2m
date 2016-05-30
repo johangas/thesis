@@ -1,0 +1,3 @@
+oma-lwm2m_src = oma-tlv.c lwm2m-object.c lwm2m-engine.c lwm2m-plain-text.c tlv-reader.c tlv-writer.c
+
+CFLAGS += -DHAVE_OMA_LWM2M=1

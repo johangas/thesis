@@ -1,0 +1,18 @@
+#!/bin/bash
+
+set -e
+
+export ETC_6LBR=`dirname $0`
+export CETIC_6LBR_CONF=$ETC_6LBR/6lbr.conf
+
+. $CETIC_6LBR_CONF
+. $ETC_6LBR/6lbr-functions
+
+config_default
+
+for i in `ls $ETC_6LBR/ifdown.d`; do
+	file=$ETC_6LBR/ifdown.d/$i
+	if [ -x $file ]; then
+		$file $ETC_6LBR "$@"
+	fi
+done

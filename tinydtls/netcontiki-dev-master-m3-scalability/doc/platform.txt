@@ -1,0 +1,38 @@
+/**
+ * \defgroup platform Contiki platforms
+ */
+
+/**
+ * \addtogroup cooja COOJA network simulator node
+ * \ingroup platform
+ */
+
+/**
+ * \addtogroup exp5438 MSP430F5438 Experimenter Board
+ * \ingroup platform
+ */
+
+/**
+ * \addtogroup native_platform Native platform
+ * \ingroup platform
+ */
+
+/**
+ * \addtogroup sky The Tmote Sky Board
+ * \ingroup platform
+ */
+
+/**
+ * \addtogroup win32 Win32
+ * \ingroup platform
+ */
+
+/**
+ * \addtogroup wismote WiSMote
+ * \ingroup platform
+ */
+
+/**
+ * \addtogroup z1 Zolertia Z1
+ * \ingroup platform
+ */

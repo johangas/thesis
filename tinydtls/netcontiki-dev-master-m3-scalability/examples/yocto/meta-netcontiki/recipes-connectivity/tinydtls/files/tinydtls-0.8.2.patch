@@ -1,0 +1,36 @@
+diff -cr tinydtls-0.8.2/ecc/Makefile.in tinydtls-0.8.2a/ecc/Makefile.in
+*** tinydtls-0.8.2/ecc/Makefile.in	2014-12-03 23:27:31.000000000 +0800
+--- tinydtls-0.8.2a/ecc/Makefile.in	2015-05-19 05:53:05.829416103 +0800
+***************
+*** 35,49 ****
+  top_builddir = @top_builddir@
+  top_srcdir:= @top_srcdir@
+  
+! ECC_SOURCES:= ecc.c testecc.c testfield.c test_helper.c
+! ECC_HEADERS:= ecc.h test_helper.h
+! FILES:=Makefile.in Makefile.contiki $(ECC_SOURCES) $(ECC_HEADERS) 
+  DISTDIR=$(top_builddir)/@PACKAGE_TARNAME@-@PACKAGE_VERSION@
+  
+  ifeq ("@WITH_CONTIKI@", "1")
+  include Makefile.contiki
+  else
+! ECC_OBJECTS:= $(patsubst %.c, %.o, $(ECC_SOURCES)) ecc_test.o
+  PROGRAMS:= testecc testfield
+  CPPFLAGS=@CPPFLAGS@
+  CFLAGS=-Wall -std=c99 -pedantic @CFLAGS@ -DTEST_INCLUDE
+--- 35,49 ----
+  top_builddir = @top_builddir@
+  top_srcdir:= @top_srcdir@
+  
+! SOURCES:= ecc.c testecc.c testfield.c test_helper.c
+! HEADERS:= ecc.h test_helper.h
+! FILES:=Makefile.in Makefile.contiki $(SOURCES) $(HEADERS) 
+  DISTDIR=$(top_builddir)/@PACKAGE_TARNAME@-@PACKAGE_VERSION@
+  
+  ifeq ("@WITH_CONTIKI@", "1")
+  include Makefile.contiki
+  else
+! OBJECTS:= $(patsubst %.c, %.o, $(SOURCES)) ecc_test.o
+  PROGRAMS:= testecc testfield
+  CPPFLAGS=@CPPFLAGS@
+  CFLAGS=-Wall -std=c99 -pedantic @CFLAGS@ -DTEST_INCLUDE

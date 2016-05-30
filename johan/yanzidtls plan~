@@ -1,0 +1,14 @@
+använd i makefile
+APPS += ipso-objects
+APPS += er-coap
+APPS += rest-engine
+
+
+applikationens main bör se ut som
+iot-u10.c
+
+#if WITH_IPSO
+  ipso_objects_init();
+#endif
+
+https://github.com/YanziNetworks/netcontiki/wiki/LWM2M-Network-Setup-with-DTLS

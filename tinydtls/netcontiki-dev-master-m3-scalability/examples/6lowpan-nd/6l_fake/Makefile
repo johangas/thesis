@@ -1,0 +1,15 @@
+all: 6lh_fake
+APPS=6lowpannd
+
+APPS += serial-shell
+
+PROJECT_SOURCEFILES += ../shell-6l.c fake.c
+
+CONTIKI_WITH_IPV6 = 1
+CONTIKI_WITH_RPL = 0
+UIP_CONF_6LN=1
+
+CFLAGS = -DUIP_CONF_ND6_REGISTER_LIFETIME=5 -DTCPIP_CONF_ANNOTATE_TRANSMISSIONS=1 -DUIP_FAKE=1
+
+CONTIKI = ../../..
+include $(CONTIKI)/Makefile.include

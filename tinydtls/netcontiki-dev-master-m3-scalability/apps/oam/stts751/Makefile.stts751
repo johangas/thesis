@@ -1,0 +1,3 @@
+stts751_src = stts751.c
+
+CFLAGS += -DHAVE_STTS751

@@ -1,0 +1,24 @@
+ipso-objects_src = lwm2m-security.c lwm2m-server.c lwm2m-device.c lwm2m-software-update.c ipso-temperature.c ipso-button.c ipso-leds-control.c ipso-objects.c ipso-power-control.c
+CFLAGS += -DWITH_IPSO=1
+
+APPS += oma-lwm2m
+include $(CONTIKI)/apps/oma-lwm2m/Makefile.oma-lwm2m
+APPS += er-coap
+include $(CONTIKI)/apps/er-coap/Makefile.er-coap
+APPS += rest-engine
+include $(CONTIKI)/apps/rest-engine/Makefile.rest-engine
+
+ifdef WITH_DTLS
+
+ ifeq (${wildcard $(CONTIKI)/apps/tinydtls/Makefile.tinydtls},)
+  ${error Could not find the tinyDTLS submodule. Please run "git submodule update --init" and try again}
+ endif
+
+ APPS += tinydtls/aes tinydtls/sha2 tinydtls/ecc tinydtls
+ include $(CONTIKI)/apps/tinydtls/Makefile.tinydtls
+
+ ifeq ($(TARGET),felicia)
+  # Disable watchdog with DTLS
+  CFLAGS += -DWATCHDOG_CONF_ENABLE=0
+ endif
+endif

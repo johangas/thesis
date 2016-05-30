@@ -1,0 +1,4 @@
+netscan_src = netscan.c netscan-default-selector.c
+
+CFLAGS += -DHAVE_NETSCAN=1
+CFLAGS += -DFRAMER_802154_HANDLER=handler_802154_frame_received

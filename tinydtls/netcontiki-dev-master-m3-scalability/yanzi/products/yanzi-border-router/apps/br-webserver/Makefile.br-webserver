@@ -1,0 +1,3 @@
+br-webserver_src = httpd-simple.c webserver.c
+
+CFLAGS += -DHAVE_WEBSERVER=1

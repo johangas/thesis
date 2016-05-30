@@ -1,0 +1,4 @@
+#
+# Yanzi Serial Radio
+#
+SUBSYSTEM=="tty", SUBSYSTEMS=="usb-serial",  RUN="/opt/netcontiki/sbin/startBorderRouter.sh"

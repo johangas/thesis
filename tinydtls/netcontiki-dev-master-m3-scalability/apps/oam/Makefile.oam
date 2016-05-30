@@ -1,0 +1,26 @@
+#
+# Makefile for oam application
+#
+#
+# To add sub-instances, add name of instance to make variable OAM_INSTANCES
+# This will add -DHAVE_INSTANCE_name to CFLAGS
+# oam need encap
+APPS += encap
+include $(CONTIKI)/apps/encap/Makefile.encap
+
+oam_src = api.c encap.c oam.c tlv.c tools.c instance0.c unitcontroller.c
+CFLAGS += -DHAVE_OAM
+
+# List files needed for each instance that can be added
+flash_files = instance-flash.c
+
+# Now Add files needed by instances listed in OAM_INSTANCES
+oam_src += $(foreach name, $(OAM_INSTANCES), $($(name)_files))
+
+CFLAGS += $(foreach name, $(OAM_INSTANCES), -DHAVE_INSTANCE_$(name))
+
+$(OBJECTDIR)/api.o:	swrevision.h
+
+.PHONY: swrevision.h
+swrevision.h:
+	$(CONTIKI)/tools/yanzi/getswrevision.sh

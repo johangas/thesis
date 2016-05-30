@@ -1,0 +1,4 @@
+/**
+ * @defgroup cmsis CMSIS (Cortex Microcontroller Software Interface Standard)
+ * @ingroup arm
+ */

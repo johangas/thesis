@@ -1,0 +1,6 @@
+resources-web_src += yanzi-webserver-simple.c
+
+# Include the httpd implementation in the build tree and search path
+CONTIKI_SOURCEFILES += httpd-simple.c
+CONTIKIDIRS +=  $(CONTIKI)/examples/ipv6/rpl-border-router
+
