@@ -8,22 +8,23 @@
 \contentsline {subsubsection}{\numberline {1.1.6}IPSP}{4}{subsubsection.1.1.6}
 \contentsline {subsubsection}{\numberline {1.1.7}6LoWPAN}{4}{subsubsection.1.1.7}
 \contentsline {subsubsection}{\numberline {1.1.8}nRF52832}{4}{subsubsection.1.1.8}
-\contentsline {subsection}{\numberline {1.2}Nordic Semiconductor Smartphone Apps}{4}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.2}Nordic Semiconductor Smartphone Apps}{5}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Summary}{5}{subsection.1.3}
 \contentsline {section}{\numberline {2}Introduction}{5}{section.2}
 \contentsline {section}{\numberline {3}Purpose}{5}{section.3}
 \contentsline {section}{\numberline {4}The Contiki port}{5}{section.4}
-\contentsline {section}{\numberline {5}Method}{5}{section.5}
-\contentsline {subsection}{\numberline {5.1}Process}{5}{subsection.5.1}
+\contentsline {section}{\numberline {5}Method}{6}{section.5}
+\contentsline {subsection}{\numberline {5.1}Process}{6}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Optimizations}{6}{subsection.5.2}
 \contentsline {section}{\numberline {6}Application implementation}{6}{section.6}
-\contentsline {subsection}{\numberline {6.1}CoAP}{6}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}DTLS}{6}{subsection.6.2}
-\contentsline {section}{\numberline {7}Results and Discussion}{7}{section.7}
-\contentsline {subsection}{\numberline {7.1}Optimizations}{7}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Measurements}{7}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Analysis}{7}{subsection.7.3}
-\contentsline {subsection}{\numberline {7.4}Discussion}{7}{subsection.7.4}
-\contentsline {section}{\numberline {8}Future work}{7}{section.8}
-\contentsline {section}{\numberline {9}Summary}{7}{section.9}
-\contentsline {section}{\numberline {10}Acknowledgements}{7}{section.10}
-\contentsline {section}{\numberline {A}Aasdasd}{9}{appendix.A}
+\contentsline {subsection}{\numberline {6.1}CoAP}{7}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}DTLS}{7}{subsection.6.2}
+\contentsline {section}{\numberline {7}Results and Discussion}{8}{section.7}
+\contentsline {subsection}{\numberline {7.1}Optimizations}{8}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Measurements}{8}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Analysis}{8}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}Discussion}{8}{subsection.7.4}
+\contentsline {section}{\numberline {8}Future work}{8}{section.8}
+\contentsline {section}{\numberline {9}Summary}{8}{section.9}
+\contentsline {section}{\numberline {10}Acknowledgements}{8}{section.10}
+\contentsline {section}{\numberline {A}Aasdasd}{10}{appendix.A}

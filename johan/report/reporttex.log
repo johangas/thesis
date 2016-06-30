@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.5.3)  16 MAY 2016 15:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.5.3)  22 JUN 2016 14:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -368,47 +368,87 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.89 
+l.85 
       [1]
 Underfull \hbox (badness 10000) in paragraph at lines 91--95
 
  []
 
-<gatt.png, id=185, 1731.46875pt x 1899.095pt>
+<gatt.png, id=190, 1731.46875pt x 1899.095pt>
 File: gatt.png Graphic file (type png)
  <use gatt.png>
 Package pdftex.def Info: gatt.png used on input line 100.
-(pdftex.def)             Requested size: 259.7091pt x 284.85196pt.
- [2] [3 <./gatt.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 118--122
+(pdftex.def)             Requested size: 346.28761pt x 379.81227pt.
+
+Overfull \hbox (1.28761pt too wide) in paragraph at lines 100--101
+ [][] 
+ []
+
+[2] [3 <./gatt.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 120--123
 
  []
 
-[4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 161--163
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--130
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 135--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 175--177
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--190
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 199--201
+Underfull \hbox (badness 10000) in paragraph at lines 192--197
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 223--229
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--243
 [][]$\OT1/cmtt/m/n/10 http : / / infocenter . nordicsemi . com / pdf / nRF52832
  _ PS _ v1 . 0 . pdf$[]\OT1/cmr/m/n/10 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--207
+Underfull \hbox (badness 10000) in paragraph at lines 247--249
 [][]$\OT1/cmtt/m/n/10 http : / / company . nokia . com / en / news / press-[]re
 leases / 2006 / 10 / 03 /
  []
 
 
-Overfull \hbox (2.33054pt too wide) in paragraph at lines 205--207
+Overfull \hbox (2.33054pt too wide) in paragraph at lines 247--249
 \OT1/cmtt/m/n/10 nokia-[]introduces-[]wibree-[]technology-[]as-[]open-[]industr
 y-[]initiative$[]\OT1/cmr/m/n/10 .
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 208--210
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 250--252
 [][]$\OT1/cmtt/m/n/10 https : / / www . bluetooth . com / what-[]is-[]bluetooth
 -[]technology /
  []
@@ -416,48 +456,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 208--210
 Missing character: There is no Â in font cmti10!
 Missing character: There is no ® in font cmti10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--216
+Underfull \hbox (badness 10000) in paragraph at lines 256--258
 [][]$\OT1/cmtt/m/n/10 https : / / www . bluetooth . org / docman / handlers / D
 ownloadDoc . ashx ?
  []
 
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 235--237
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--279
 [][]$\OT1/cmtt/m/n/10 https : / / projects . eclipse . org / projects / iot . t
 inydtls$[] \OT1/cmr/m/it/10 tiny-DTLS\OT1/cmr/m/n/10 ,
  []
 
-[8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 244.
- [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 244.
+
+Underfull \hbox (badness 5893) in paragraph at lines 280--283
+[]\OT1/cmr/m/n/10 eclipse Foun-da-tion []$\OT1/cmtt/m/n/10 https : / / github .
+ com / eclipse / leshan$[] \OT1/cmr/m/it/10 LE-SHAN\OT1/cmr/m/n/10 ,
+ []
+
+[9]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 294.
+ [10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 294.
  (./reporttex.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 244.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 244.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 294.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 294.
 Package rerunfilecheck Info: File `reporttex.out' has not changed.
-(rerunfilecheck)             Checksum: 3C8DDF3FD1CF56FABEF5EF1617860F8C;1685.
+(rerunfilecheck)             Checksum: 00110608EB9447ABA1F0A96FF22B52D3;1742.
  ) 
 Here is how much of TeX's memory you used:
- 6415 strings out of 494985
- 93459 string characters out of 6180357
- 186046 words of memory out of 5000000
- 9497 multiletter control sequences out of 15000+600000
+ 6422 strings out of 494985
+ 93538 string characters out of 6180357
+ 187106 words of memory out of 5000000
+ 9500 multiletter control sequences out of 15000+600000
  7528 words of font info for 27 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 35i,6n,28p,1022b,435s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,6n,28p,1022b,433s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmtt10.pfb>
-Output written on reporttex.pdf (13 pages, 217893 bytes).
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmtt10.pfb>
+Output written on reporttex.pdf (14 pages, 240782 bytes).
 PDF statistics:
- 300 PDF objects out of 1000 (max. 8388607)
- 271 compressed objects within 3 object streams
- 60 named destinations out of 1000 (max. 500000)
- 238 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 324 PDF objects out of 1000 (max. 8388607)
+ 292 compressed objects within 3 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 246 words of extra memory for PDF output out of 10000 (max. 10000000)
 

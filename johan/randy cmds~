@@ -12,7 +12,7 @@ modprobe bluetooth_6lowpan
 echo 35 > /sys/kernel/debug/bluetooth/6lowpan_psm
 
 #connect to boards
-6echo "connect 00:00:F7:D1:AB:65 1" > /sys/kernel/debug/bluetooth/6lowpan_control
+echo "connect 00:00:F7:D1:AB:65 1" > /sys/kernel/debug/bluetooth/6lowpan_control
 echo "connect 00:25:40:F0:8B:F0 1" > /sys/kernel/debug/bluetooth/6lowpan_control
 
 
